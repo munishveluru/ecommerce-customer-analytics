@@ -17,7 +17,7 @@ random.seed(42)
 
 # Sample lists for generation
 first_names = [
-    "Aarav", "Aditya", "Amit", "Ananya", "Arjun", "Diya", "Isha", "Kabir", "Meera", "Neha",
+    "muneesh", "Aditya", "Amit", "Ananya", "Arjun", "Diya", "Isha", "Kabir", "Meera", "Neha",
     "Pranav", "Rohan", "Siddharth", "Tanvi", "Vikram", "James", "Emily", "Michael", "Sarah", "David",
     "John", "Jessica", "Robert", "Karen", "William", "Lisa", "Thomas", "Sandra", "Richard", "Ashley",
     "Rajesh", "Priya", "Sunita", "Vijay", "Anil", "Suresh", "Gita", "Deepak", "Sanjay", "Kiran"
