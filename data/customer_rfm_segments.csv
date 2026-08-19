@@ -1,0 +1,1001 @@
+CustomerID,Name,Email,SignupDate,Country,Recency,Frequency,Monetary,R_Score,F_Score,M_Score,RFM_Cell,RFM_Score,Cluster,Customer_Segment
+C0001,Kabir Verma,kabir.verma45@example.com,2025-05-06,India,34,2,166.4,4,1,2,412,7,1,Loyalists
+C0002,Isha White,isha.white21@example.com,2025-10-30,United States,14,5,166.0,5,4,2,542,11,1,Loyalists
+C0003,Aditya Singh,aditya.singh37@example.com,2025-04-30,United States,308,1,74.43,1,1,1,111,3,2,Lost Customers
+C0004,Aditya Harris,aditya.harris35@example.com,2026-01-02,United States,13,10,3146.1,5,5,5,555,15,3,Champions
+C0005,Anil Mukherjee,anil.mukherjee38@example.com,2025-08-18,United States,55,1,26.29,3,1,1,311,5,2,Lost Customers
+C0006,Aarav Smith,aarav.smith99@example.com,2025-08-05,India,274,2,122.35999999999999,1,1,2,112,4,2,Lost Customers
+C0007,Neha Brown,neha.brown53@example.com,2025-02-22,India,186,6,1118.26,1,4,5,145,10,0,At Risk Customers
+C0008,Isha Roy,isha.roy54@example.com,2025-11-06,India,13,2,177.74,5,1,2,512,8,1,Loyalists
+C0009,Amit Mishra,amit.mishra78@example.com,2025-03-05,Singapore,135,7,1177.99,2,5,5,255,12,0,At Risk Customers
+C0010,William Singh,william.singh80@example.com,2025-05-31,Germany,22,6,858.0799999999999,4,4,4,444,12,3,Champions
+C0011,Kiran Bose,kiran.bose83@example.com,2025-04-09,United Kingdom,21,5,775.21,4,4,4,444,12,1,Loyalists
+C0012,Amit Jones,amit.jones47@example.com,2025-02-10,France,11,4,169.17000000000002,5,3,2,532,10,1,Loyalists
+C0013,Isha Das,isha.das45@example.com,2025-08-21,United States,226,1,19.91,1,1,1,111,3,2,Lost Customers
+C0014,Karen Smith,karen.smith57@example.com,2025-07-01,India,379,3,114.74,1,2,2,122,5,2,Lost Customers
+C0015,Michael Patel,michael.patel87@example.com,2025-11-22,India,32,5,369.9,4,4,4,444,12,1,Loyalists
+C0016,James Smith,james.smith69@example.com,2025-07-14,India,44,5,321.18,3,4,4,344,11,0,At Risk Customers
+C0017,Suresh Jones,suresh.jones97@example.com,2025-06-16,France,37,6,777.04,4,4,4,444,12,3,Champions
+C0018,Ananya Jones,ananya.jones14@example.com,2026-02-17,India,2,5,366.32000000000005,5,4,4,544,13,1,Loyalists
+C0019,Michael Patel,michael.patel37@example.com,2025-10-18,France,1,2,126.17999999999999,5,1,2,512,8,1,Loyalists
+C0020,John Brown,john.brown93@example.com,2025-09-13,India,142,2,167.65,2,1,2,212,5,2,Lost Customers
+C0021,Ashley Reddy,ashley.reddy43@example.com,2025-03-13,India,80,4,355.21000000000004,3,3,4,334,10,0,At Risk Customers
+C0022,Suresh White,suresh.white43@example.com,2026-01-18,United States,142,2,196.91,2,1,2,212,5,0,At Risk Customers
+C0023,Deepak Choudhury,deepak.choudhury56@example.com,2025-04-23,Singapore,128,8,1378.87,2,5,5,255,12,3,Champions
+C0024,Meera Thomas,meera.thomas73@example.com,2025-02-16,Germany,11,7,1252.3899999999999,5,5,5,555,15,3,Champions
+C0025,Kabir Reddy,kabir.reddy90@example.com,2025-03-23,Germany,196,2,125.82,1,1,2,112,4,2,Lost Customers
+C0026,Sandra Young,sandra.young18@example.com,2025-07-17,India,111,4,587.8000000000001,2,3,4,234,9,0,At Risk Customers
+C0027,Ashley Jackson,ashley.jackson42@example.com,2025-10-11,France,164,2,133.57,2,1,2,212,5,2,Lost Customers
+C0028,Aarav Rao,aarav.rao97@example.com,2025-10-02,Germany,193,1,19.28,1,1,1,111,3,2,Lost Customers
+C0029,Jessica Rao,jessica.rao47@example.com,2025-08-11,India,104,6,1198.0900000000001,2,4,5,245,11,0,At Risk Customers
+C0030,Aarav Miller,aarav.miller74@example.com,2026-01-26,India,26,9,1225.8600000000001,4,5,5,455,14,3,Champions
+C0031,Isha Martinez,isha.martinez91@example.com,2025-09-17,United States,207,1,55.8,1,1,1,111,3,2,Lost Customers
+C0032,Neha Bose,neha.bose30@example.com,2025-10-04,Australia,19,3,169.57999999999998,5,2,2,522,9,1,Loyalists
+C0033,Vijay Sharma,vijay.sharma86@example.com,2025-06-15,United States,105,5,215.14,2,4,3,243,9,0,At Risk Customers
+C0034,Kabir Bose,kabir.bose49@example.com,2025-05-03,India,16,1,17.76,5,1,1,511,7,2,Lost Customers
+C0035,Gita Singh,gita.singh20@example.com,2026-01-10,United States,23,5,395.34999999999997,4,4,4,444,12,1,Loyalists
+C0036,Arjun White,arjun.white26@example.com,2025-03-07,United Kingdom,129,1,22.49,2,1,1,211,4,2,Lost Customers
+C0037,Suresh Smith,suresh.smith43@example.com,2025-09-28,France,127,5,341.38,2,4,4,244,10,0,At Risk Customers
+C0038,Sandra Brown,sandra.brown79@example.com,2026-01-22,United Kingdom,79,1,59.53,3,1,1,311,5,2,Lost Customers
+C0039,Siddharth Martinez,siddharth.martinez61@example.com,2025-12-10,United States,37,1,60.94,4,1,1,411,6,2,Lost Customers
+C0040,Richard Jackson,richard.jackson67@example.com,2025-03-03,India,65,4,698.55,3,3,4,334,10,0,At Risk Customers
+C0041,Arjun Sen,arjun.sen12@example.com,2025-10-29,United States,12,3,182.17000000000002,5,2,2,522,9,1,Loyalists
+C0042,Deepak Jones,deepak.jones10@example.com,2025-02-06,United Kingdom,49,3,139.0,3,2,2,322,7,0,At Risk Customers
+C0043,Ananya Jones,ananya.jones18@example.com,2025-01-17,France,537,2,114.47999999999999,1,1,2,112,4,2,Lost Customers
+C0044,Arjun Thomas,arjun.thomas40@example.com,2025-05-23,United Kingdom,131,9,1420.11,2,5,5,255,12,3,Champions
+C0045,Tanvi White,tanvi.white26@example.com,2026-01-06,Australia,75,3,236.74,3,2,3,323,8,0,At Risk Customers
+C0046,Gita Martin,gita.martin70@example.com,2025-05-05,Germany,59,8,1403.92,3,5,5,355,13,3,Champions
+C0047,Thomas Williams,thomas.williams22@example.com,2025-02-19,United Kingdom,239,2,86.53999999999999,1,1,1,111,3,2,Lost Customers
+C0048,Robert Banerjee,robert.banerjee62@example.com,2025-08-28,France,20,4,287.09000000000003,4,3,3,433,10,1,Loyalists
+C0049,Ananya Joshi,ananya.joshi17@example.com,2025-07-26,United Kingdom,2,4,170.95000000000002,5,3,2,532,10,1,Loyalists
+C0050,Isha Garcia,isha.garcia34@example.com,2025-04-08,United States,285,4,266.58,1,3,3,133,7,0,At Risk Customers
+C0051,Meera Banerjee,meera.banerjee33@example.com,2025-05-23,United States,128,7,973.31,2,5,5,255,12,0,At Risk Customers
+C0052,Arjun Chatterjee,arjun.chatterjee80@example.com,2025-02-20,India,108,3,233.95,2,2,3,223,7,0,At Risk Customers
+C0053,Anil Sharma,anil.sharma21@example.com,2026-01-21,France,63,1,25.57,3,1,1,311,5,2,Lost Customers
+C0054,Pranav Mukherjee,pranav.mukherjee72@example.com,2025-09-04,India,92,2,141.38,2,1,2,212,5,2,Lost Customers
+C0055,Lisa Mehta,lisa.mehta31@example.com,2025-07-14,India,6,20,6748.24,5,5,5,555,15,3,Champions
+C0056,William Miller,william.miller68@example.com,2025-05-27,United States,210,2,173.07999999999998,1,1,2,112,4,2,Lost Customers
+C0057,Suresh Anderson,suresh.anderson29@example.com,2025-04-08,India,3,7,877.04,5,5,4,554,14,3,Champions
+C0058,Ananya Thompson,ananya.thompson79@example.com,2025-02-01,United Kingdom,151,16,4834.34,2,5,5,255,12,3,Champions
+C0059,Ananya Mehta,ananya.mehta84@example.com,2025-09-02,United States,107,2,160.82999999999998,2,1,2,212,5,0,At Risk Customers
+C0060,Vijay Smith,vijay.smith17@example.com,2025-09-18,India,108,1,35.02,2,1,1,211,4,2,Lost Customers
+C0061,Rohan Patel,rohan.patel86@example.com,2025-02-04,United Kingdom,23,3,233.63,4,2,3,423,9,1,Loyalists
+C0062,James Choudhury,james.choudhury25@example.com,2025-10-19,India,44,1,76.04,3,1,1,311,5,2,Lost Customers
+C0063,Sanjay Gupta,sanjay.gupta89@example.com,2025-02-11,United States,121,5,344.22,2,4,4,244,10,0,At Risk Customers
+C0064,Deepak Martin,deepak.martin76@example.com,2025-06-11,Australia,9,8,1354.1399999999999,5,5,5,555,15,3,Champions
+C0065,Tanvi Kumar,tanvi.kumar40@example.com,2025-05-16,India,327,1,31.01,1,1,1,111,3,2,Lost Customers
+C0066,David Mishra,david.mishra50@example.com,2026-01-20,Australia,17,4,246.57,5,3,3,533,11,1,Loyalists
+C0067,Aarav Mishra,aarav.mishra89@example.com,2025-10-16,Singapore,117,1,45.88,2,1,1,211,4,2,Lost Customers
+C0068,Arjun White,arjun.white37@example.com,2025-09-17,India,123,4,290.49,2,3,3,233,8,0,At Risk Customers
+C0069,Robert Patel,robert.patel41@example.com,2025-07-09,India,16,3,220.96,5,2,3,523,10,1,Loyalists
+C0070,Richard White,richard.white48@example.com,2025-11-10,Singapore,14,13,3942.9,5,5,5,555,15,3,Champions
+C0071,Vijay Sharma,vijay.sharma95@example.com,2025-10-11,India,211,4,281.7,1,3,3,133,7,0,At Risk Customers
+C0072,Isha Nair,isha.nair43@example.com,2025-03-01,Canada,177,1,21.24,1,1,1,111,3,2,Lost Customers
+C0073,Suresh Reddy,suresh.reddy44@example.com,2025-05-25,United States,62,3,135.6,3,2,2,322,7,0,At Risk Customers
+C0074,Jessica Brown,jessica.brown97@example.com,2025-11-21,France,11,19,5969.32,5,5,5,555,15,3,Champions
+C0075,Sunita Anderson,sunita.anderson42@example.com,2025-01-27,India,540,1,16.97,1,1,1,111,3,2,Lost Customers
+C0076,Sandra Davis,sandra.davis15@example.com,2025-01-02,India,118,5,353.02,2,4,4,244,10,0,At Risk Customers
+C0077,Meera Miller,meera.miller30@example.com,2026-01-15,United States,107,2,213.3,2,2,2,222,6,0,At Risk Customers
+C0078,Sandra Harris,sandra.harris11@example.com,2025-02-27,India,358,2,144.82,1,2,2,122,5,2,Lost Customers
+C0079,Neha White,neha.white14@example.com,2025-07-09,United States,158,1,63.48,2,1,1,211,4,2,Lost Customers
+C0080,Neha Banerjee,neha.banerjee26@example.com,2025-01-22,India,88,5,399.23,3,4,4,344,11,0,At Risk Customers
+C0081,Amit Roy,amit.roy36@example.com,2025-12-16,India,82,4,242.97,3,3,3,333,9,0,At Risk Customers
+C0082,Isha Roy,isha.roy81@example.com,2025-07-28,Singapore,113,1,32.83,2,1,1,211,4,2,Lost Customers
+C0083,Neha Garcia,neha.garcia30@example.com,2026-02-14,Germany,9,5,346.65000000000003,5,4,4,544,13,1,Loyalists
+C0084,Thomas Verma,thomas.verma32@example.com,2026-01-13,Canada,3,4,335.96,5,3,4,534,12,1,Loyalists
+C0085,Thomas Garcia,thomas.garcia44@example.com,2025-03-23,Germany,29,2,141.9,4,2,2,422,8,1,Loyalists
+C0086,Isha Das,isha.das14@example.com,2025-08-29,India,98,1,66.29,2,1,1,211,4,2,Lost Customers
+C0087,Ashley Roy,ashley.roy49@example.com,2026-02-12,France,138,1,39.0,2,1,1,211,4,2,Lost Customers
+C0088,Vikram Verma,vikram.verma94@example.com,2025-04-09,India,155,1,63.44,2,1,1,211,4,2,Lost Customers
+C0089,Michael Patel,michael.patel45@example.com,2025-06-29,United States,91,3,256.65,2,2,3,223,7,0,At Risk Customers
+C0090,Lisa White,lisa.white52@example.com,2025-01-15,India,109,4,307.17,2,3,3,233,8,0,At Risk Customers
+C0091,Emily Johnson,emily.johnson84@example.com,2025-05-16,India,175,5,873.52,1,4,4,144,9,0,At Risk Customers
+C0092,Sanjay Banerjee,sanjay.banerjee54@example.com,2026-01-09,Germany,59,3,317.93,3,2,3,323,8,0,At Risk Customers
+C0093,Sandra Young,sandra.young75@example.com,2025-03-01,India,131,1,76.02,2,1,1,211,4,2,Lost Customers
+C0094,Gita Williams,gita.williams42@example.com,2025-01-23,United Kingdom,62,17,5785.58,3,5,5,355,13,3,Champions
+C0095,Aarav Jackson,aarav.jackson78@example.com,2025-12-18,United Kingdom,21,5,434.08,4,4,4,444,12,1,Loyalists
+C0096,Siddharth Bose,siddharth.bose65@example.com,2025-02-05,Australia,107,3,217.70999999999998,2,2,3,223,7,0,At Risk Customers
+C0097,Jessica King,jessica.king50@example.com,2025-12-06,France,25,10,1407.09,4,5,5,455,14,3,Champions
+C0098,David Thomas,david.thomas49@example.com,2025-12-08,United States,15,19,5604.02,5,5,5,555,15,3,Champions
+C0099,Lisa Rodriguez,lisa.rodriguez80@example.com,2025-03-07,India,28,4,312.25,4,3,3,433,10,1,Loyalists
+C0100,William Johnson,william.johnson88@example.com,2025-10-19,India,6,10,3193.54,5,5,5,555,15,3,Champions
+C0101,Suresh Sharma,suresh.sharma48@example.com,2025-05-27,India,313,3,193.15,1,2,2,122,5,0,At Risk Customers
+C0102,Deepak Young,deepak.young93@example.com,2025-06-14,United States,237,3,229.97,1,2,3,123,6,0,At Risk Customers
+C0103,Richard Brown,richard.brown75@example.com,2025-08-31,Germany,46,5,243.76999999999998,3,4,3,343,10,0,At Risk Customers
+C0104,Pranav Singh,pranav.singh46@example.com,2025-09-21,United Kingdom,64,7,1091.93,3,5,5,355,13,3,Champions
+C0105,Kiran Sen,kiran.sen21@example.com,2026-01-20,India,137,1,49.8,2,1,1,211,4,2,Lost Customers
+C0106,David Jones,david.jones35@example.com,2025-03-17,India,262,2,126.61999999999999,1,2,2,122,5,2,Lost Customers
+C0107,James Taylor,james.taylor88@example.com,2026-01-29,India,23,8,1018.0,4,5,5,455,14,3,Champions
+C0108,Thomas Martin,thomas.martin34@example.com,2026-01-03,United Kingdom,21,5,320.37,4,4,4,444,12,1,Loyalists
+C0109,Priya Choudhury,priya.choudhury41@example.com,2025-03-17,United Kingdom,61,5,270.78999999999996,3,4,3,343,10,0,At Risk Customers
+C0110,Aarav Joshi,aarav.joshi64@example.com,2025-04-23,India,48,10,1492.8799999999999,3,5,5,355,13,3,Champions
+C0111,Vijay Mishra,vijay.mishra16@example.com,2025-10-13,India,112,4,365.44,2,3,4,234,9,0,At Risk Customers
+C0112,Kabir Mishra,kabir.mishra27@example.com,2026-02-15,United States,109,5,266.79,2,4,3,243,9,0,At Risk Customers
+C0113,Vijay Harris,vijay.harris86@example.com,2025-06-12,Australia,33,4,282.6,4,3,3,433,10,1,Loyalists
+C0114,Richard King,richard.king74@example.com,2025-08-07,France,91,1,12.94,2,1,1,211,4,2,Lost Customers
+C0115,Suresh Chatterjee,suresh.chatterjee30@example.com,2026-01-16,France,35,2,175.25,4,2,2,422,8,1,Loyalists
+C0116,Richard Miller,richard.miller41@example.com,2025-11-23,India,6,10,1432.19,5,5,5,555,15,3,Champions
+C0117,Vijay Anderson,vijay.anderson90@example.com,2025-05-03,India,21,5,422.58,4,4,4,444,12,1,Loyalists
+C0118,Arjun Rodriguez,arjun.rodriguez40@example.com,2025-05-20,India,57,4,335.51,3,3,4,334,10,0,At Risk Customers
+C0119,Anil Singh,anil.singh27@example.com,2025-03-19,India,200,4,585.9,1,3,4,134,8,0,At Risk Customers
+C0120,Neha Brown,neha.brown18@example.com,2025-08-01,United States,10,2,81.44,5,2,1,521,8,1,Loyalists
+C0121,Anil Mishra,anil.mishra63@example.com,2025-02-01,India,106,2,150.34,2,2,2,222,6,2,Lost Customers
+C0122,Thomas Das,thomas.das84@example.com,2025-12-23,India,70,1,64.94,3,1,1,311,5,2,Lost Customers
+C0123,Gita Das,gita.das71@example.com,2025-01-04,Australia,61,5,377.49,3,4,4,344,11,0,At Risk Customers
+C0124,David Das,david.das63@example.com,2025-10-03,United Kingdom,71,5,426.32,3,4,4,344,11,0,At Risk Customers
+C0125,Anil Young,anil.young38@example.com,2025-09-07,India,99,4,237.29000000000002,2,3,3,233,8,0,At Risk Customers
+C0126,Sandra Anderson,sandra.anderson13@example.com,2025-07-19,India,78,8,1151.19,3,5,5,355,13,3,Champions
+C0127,Lisa Smith,lisa.smith69@example.com,2025-03-07,Singapore,184,1,47.87,1,1,1,111,3,2,Lost Customers
+C0128,Anil Verma,anil.verma60@example.com,2025-10-31,United States,20,9,1559.81,4,5,5,455,14,3,Champions
+C0129,Aditya Singh,aditya.singh92@example.com,2025-08-08,India,165,5,524.27,2,4,4,244,10,0,At Risk Customers
+C0130,Ashley Johnson,ashley.johnson16@example.com,2025-05-14,India,6,2,111.41,5,2,2,522,9,1,Loyalists
+C0131,Tanvi Mishra,tanvi.mishra51@example.com,2025-06-22,Germany,398,1,24.18,1,1,1,111,3,2,Lost Customers
+C0132,William Davis,william.davis63@example.com,2025-05-10,France,14,7,867.97,5,5,4,554,14,3,Champions
+C0133,Rajesh Verma,rajesh.verma79@example.com,2025-01-27,Singapore,20,3,305.41,4,2,3,423,9,1,Loyalists
+C0134,Robert Jones,robert.jones93@example.com,2025-02-05,Germany,305,3,208.49,1,2,2,122,5,0,At Risk Customers
+C0135,Amit Verma,amit.verma41@example.com,2025-04-13,France,116,1,47.39,2,1,1,211,4,2,Lost Customers
+C0136,Kiran Reddy,kiran.reddy40@example.com,2025-03-06,United States,182,5,343.36,1,4,4,144,9,0,At Risk Customers
+C0137,Kabir Martin,kabir.martin37@example.com,2025-08-27,United Kingdom,47,2,143.23000000000002,3,2,2,322,7,0,At Risk Customers
+C0138,Karen Smith,karen.smith87@example.com,2025-11-07,Australia,14,16,4364.88,5,5,5,555,15,3,Champions
+C0139,Kabir Smith,kabir.smith49@example.com,2025-02-25,United States,34,5,336.18,4,4,4,444,12,1,Loyalists
+C0140,David Martin,david.martin96@example.com,2025-07-12,India,183,4,260.03,1,3,3,133,7,0,At Risk Customers
+C0141,Siddharth Patel,siddharth.patel85@example.com,2025-12-20,France,48,1,16.7,3,1,1,311,5,2,Lost Customers
+C0142,James Joshi,james.joshi99@example.com,2026-01-31,India,186,1,74.17,1,1,1,111,3,2,Lost Customers
+C0143,Sanjay Rao,sanjay.rao82@example.com,2026-02-05,India,40,2,108.82000000000001,4,2,2,422,8,1,Loyalists
+C0144,Anil Banerjee,anil.banerjee94@example.com,2025-07-09,India,91,2,120.42,2,2,2,222,6,2,Lost Customers
+C0145,Jessica Sharma,jessica.sharma63@example.com,2025-09-08,India,1,20,7165.87,5,5,5,555,15,3,Champions
+C0146,Karen Mishra,karen.mishra29@example.com,2025-08-11,India,149,7,836.91,2,5,4,254,11,0,At Risk Customers
+C0147,Vijay Davis,vijay.davis88@example.com,2026-02-18,Canada,10,2,84.22999999999999,5,2,1,521,8,1,Loyalists
+C0148,Rajesh Mishra,rajesh.mishra65@example.com,2026-01-10,United States,45,4,302.23,3,3,3,333,9,0,At Risk Customers
+C0149,John Garcia,john.garcia21@example.com,2025-05-23,Canada,180,3,228.68,1,2,3,123,6,0,At Risk Customers
+C0150,James Mishra,james.mishra82@example.com,2025-11-09,United Kingdom,177,1,60.91,1,1,1,111,3,2,Lost Customers
+C0151,Jessica Verma,jessica.verma73@example.com,2025-06-16,India,165,2,137.29000000000002,2,2,2,222,6,2,Lost Customers
+C0152,Tanvi Roy,tanvi.roy43@example.com,2025-06-24,India,56,5,378.07,3,4,4,344,11,0,At Risk Customers
+C0153,Sanjay Davis,sanjay.davis81@example.com,2025-01-06,United States,215,4,660.36,1,3,4,134,8,0,At Risk Customers
+C0154,Siddharth Singh,siddharth.singh40@example.com,2026-01-04,United States,183,1,40.92,1,1,1,111,3,2,Lost Customers
+C0155,Suresh Garcia,suresh.garcia98@example.com,2025-09-01,United States,44,13,4241.53,3,5,5,355,13,3,Champions
+C0156,Priya Chatterjee,priya.chatterjee12@example.com,2025-02-17,India,136,3,264.6,2,2,3,223,7,0,At Risk Customers
+C0157,Lisa Garcia,lisa.garcia49@example.com,2025-12-06,United States,57,8,1231.13,3,5,5,355,13,3,Champions
+C0158,Rajesh Harris,rajesh.harris77@example.com,2025-06-26,United States,210,3,216.92,1,2,3,123,6,0,At Risk Customers
+C0159,Suresh Sen,suresh.sen55@example.com,2025-12-26,United States,4,14,4950.99,5,5,5,555,15,3,Champions
+C0160,David Miller,david.miller39@example.com,2025-03-03,United Kingdom,467,1,58.86,1,1,1,111,3,2,Lost Customers
+C0161,John Rao,john.rao78@example.com,2026-01-26,United Kingdom,11,1,48.7,5,1,1,511,7,1,Loyalists
+C0162,Siddharth Brown,siddharth.brown71@example.com,2025-05-22,United Kingdom,197,2,141.93,1,2,2,122,5,2,Lost Customers
+C0163,Vijay Young,vijay.young46@example.com,2025-02-21,France,70,4,637.87,3,3,4,334,10,0,At Risk Customers
+C0164,Sarah Jones,sarah.jones56@example.com,2025-04-02,India,140,3,249.20999999999998,2,2,3,223,7,0,At Risk Customers
+C0165,Anil Nair,anil.nair45@example.com,2025-01-24,Singapore,258,5,369.15,1,4,4,144,9,0,At Risk Customers
+C0166,Suresh Rodriguez,suresh.rodriguez99@example.com,2025-03-06,United States,326,5,330.19,1,4,4,144,9,0,At Risk Customers
+C0167,Priya Joshi,priya.joshi11@example.com,2025-10-21,India,26,2,111.78,4,2,2,422,8,1,Loyalists
+C0168,Rajesh Chatterjee,rajesh.chatterjee53@example.com,2025-04-05,Australia,168,3,133.88,2,2,2,222,6,0,At Risk Customers
+C0169,Emily Taylor,emily.taylor24@example.com,2025-02-03,United States,52,4,278.02,3,3,3,333,9,0,At Risk Customers
+C0170,Arjun Martin,arjun.martin90@example.com,2025-12-18,India,28,4,335.28999999999996,4,3,4,434,11,1,Loyalists
+C0171,Neha Martin,neha.martin48@example.com,2025-02-13,Singapore,237,1,26.55,1,1,1,111,3,2,Lost Customers
+C0172,Kabir Harris,kabir.harris63@example.com,2025-11-07,United States,91,17,4664.5,2,5,5,255,12,3,Champions
+C0173,Kiran Jones,kiran.jones76@example.com,2025-07-14,United States,92,7,975.4200000000001,2,5,5,255,12,0,At Risk Customers
+C0174,Richard Martinez,richard.martinez85@example.com,2025-08-08,India,76,4,204.46,3,3,2,332,8,0,At Risk Customers
+C0175,Kiran Mehta,kiran.mehta88@example.com,2026-01-14,India,45,5,329.76,3,4,4,344,11,0,At Risk Customers
+C0176,Tanvi Brown,tanvi.brown43@example.com,2025-12-05,India,62,5,301.25,3,4,3,343,10,0,At Risk Customers
+C0177,James Johnson,james.johnson80@example.com,2025-02-08,India,13,8,1261.58,5,5,5,555,15,3,Champions
+C0178,Thomas Chatterjee,thomas.chatterjee98@example.com,2025-11-01,United States,25,11,3738.9100000000003,4,5,5,455,14,3,Champions
+C0179,Amit Jones,amit.jones46@example.com,2025-12-28,India,13,2,197.14,5,2,2,522,9,1,Loyalists
+C0180,Ashley Patel,ashley.patel97@example.com,2025-04-30,Canada,33,1,47.14,4,1,1,411,6,2,Lost Customers
+C0181,Deepak Williams,deepak.williams64@example.com,2025-02-28,United States,11,5,383.37,5,4,4,544,13,1,Loyalists
+C0182,Neha Davis,neha.davis28@example.com,2025-02-06,India,44,4,333.11,3,3,4,334,10,0,At Risk Customers
+C0183,David Young,david.young82@example.com,2025-05-28,United States,57,3,112.12,3,2,2,322,7,0,At Risk Customers
+C0184,Ashley Martinez,ashley.martinez99@example.com,2025-07-26,Australia,50,2,62.62,3,2,1,321,6,2,Lost Customers
+C0185,Sunita White,sunita.white73@example.com,2025-08-13,India,43,2,170.94,3,2,2,322,7,1,Loyalists
+C0186,Amit Banerjee,amit.banerjee51@example.com,2025-11-06,India,155,1,18.1,2,1,1,211,4,2,Lost Customers
+C0187,Diya Jones,diya.jones96@example.com,2025-10-22,United States,86,6,984.42,3,4,5,345,12,0,At Risk Customers
+C0188,Aditya Davis,aditya.davis83@example.com,2025-01-21,Germany,352,1,44.99,1,1,1,111,3,2,Lost Customers
+C0189,Rohan Taylor,rohan.taylor76@example.com,2025-11-30,United States,19,4,273.94,5,3,3,533,11,1,Loyalists
+C0190,Michael Johnson,michael.johnson84@example.com,2025-08-12,United States,36,3,306.96000000000004,4,2,3,423,9,1,Loyalists
+C0191,Priya Singh,priya.singh70@example.com,2025-06-28,United States,13,16,5014.47,5,5,5,555,15,3,Champions
+C0192,John Joshi,john.joshi30@example.com,2025-06-18,United States,21,10,1583.89,4,5,5,455,14,3,Champions
+C0193,Priya Rodriguez,priya.rodriguez94@example.com,2025-07-25,Germany,6,2,184.82,5,2,2,522,9,1,Loyalists
+C0194,Suresh Gupta,suresh.gupta68@example.com,2025-02-15,India,179,4,197.78,1,3,2,132,6,0,At Risk Customers
+C0195,John Rao,john.rao61@example.com,2025-09-21,Germany,183,2,135.98000000000002,1,2,2,122,5,2,Lost Customers
+C0196,Aarav White,aarav.white69@example.com,2025-07-31,India,30,5,284.57,4,4,3,443,11,1,Loyalists
+C0197,Vijay Bose,vijay.bose89@example.com,2026-01-23,United States,55,8,1361.95,3,5,5,355,13,3,Champions
+C0198,Richard Mehta,richard.mehta36@example.com,2025-05-17,United States,52,2,153.5,3,2,2,322,7,0,At Risk Customers
+C0199,Sarah Chatterjee,sarah.chatterjee99@example.com,2025-09-06,India,37,5,778.96,4,4,4,444,12,0,At Risk Customers
+C0200,Sanjay Garcia,sanjay.garcia30@example.com,2025-06-09,United States,110,5,472.22,2,4,4,244,10,0,At Risk Customers
+C0201,Suresh Mukherjee,suresh.mukherjee21@example.com,2025-04-26,Singapore,42,4,272.14,4,3,3,433,10,0,At Risk Customers
+C0202,Kabir Mishra,kabir.mishra25@example.com,2025-11-28,France,119,5,883.67,2,4,4,244,10,0,At Risk Customers
+C0203,Priya Rodriguez,priya.rodriguez75@example.com,2025-12-28,India,173,4,296.65000000000003,1,3,3,133,7,0,At Risk Customers
+C0204,Rajesh Taylor,rajesh.taylor41@example.com,2025-08-22,United States,190,2,160.41,1,2,2,122,5,2,Lost Customers
+C0205,William Williams,william.williams86@example.com,2025-09-18,United Kingdom,20,3,311.55,4,2,3,423,9,1,Loyalists
+C0206,Meera Patel,meera.patel45@example.com,2026-01-31,Germany,66,8,1127.57,3,5,5,355,13,3,Champions
+C0207,Thomas Sen,thomas.sen74@example.com,2025-05-17,Germany,78,4,249.32,3,3,3,333,9,0,At Risk Customers
+C0208,Sarah Martinez,sarah.martinez85@example.com,2025-10-24,Singapore,101,4,183.29,2,3,2,232,7,0,At Risk Customers
+C0209,Priya Reddy,priya.reddy67@example.com,2025-10-03,United States,16,3,250.16,5,2,3,523,10,1,Loyalists
+C0210,Jessica Harris,jessica.harris79@example.com,2025-07-13,United States,30,1,45.79,4,1,1,411,6,2,Lost Customers
+C0211,John Williams,john.williams99@example.com,2025-05-03,United States,32,1,28.45,4,1,1,411,6,2,Lost Customers
+C0212,Vikram Mukherjee,vikram.mukherjee15@example.com,2025-06-12,United Kingdom,132,5,354.15,2,4,4,244,10,0,At Risk Customers
+C0213,William Das,william.das94@example.com,2026-02-10,Germany,61,10,1250.05,3,5,5,355,13,3,Champions
+C0214,Neha Anderson,neha.anderson14@example.com,2025-03-06,United States,76,4,330.39,3,3,4,334,10,0,At Risk Customers
+C0215,Deepak Sen,deepak.sen22@example.com,2025-08-14,India,7,4,227.01999999999998,5,3,3,533,11,1,Loyalists
+C0216,Ashley Sharma,ashley.sharma28@example.com,2025-07-29,France,98,4,557.58,2,3,4,234,9,0,At Risk Customers
+C0217,Neha Patel,neha.patel70@example.com,2026-02-05,Australia,15,5,367.72,5,4,4,544,13,1,Loyalists
+C0218,Jessica King,jessica.king98@example.com,2025-07-23,United States,279,1,13.19,1,1,1,111,3,2,Lost Customers
+C0219,Jessica White,jessica.white58@example.com,2025-06-12,United States,292,3,270.41999999999996,1,2,3,123,6,0,At Risk Customers
+C0220,Priya White,priya.white14@example.com,2025-11-13,India,114,4,264.8,2,3,3,233,8,0,At Risk Customers
+C0221,Sarah Jones,sarah.jones21@example.com,2025-08-11,Singapore,22,2,143.93,4,2,2,422,8,1,Loyalists
+C0222,Isha Chatterjee,isha.chatterjee31@example.com,2025-12-22,India,32,3,240.18,4,2,3,423,9,1,Loyalists
+C0223,Aditya Gupta,aditya.gupta51@example.com,2026-02-12,India,86,7,1043.16,3,5,5,355,13,0,At Risk Customers
+C0224,Robert Bose,robert.bose65@example.com,2025-03-16,India,176,4,779.87,1,3,4,134,8,0,At Risk Customers
+C0225,Thomas Martin,thomas.martin97@example.com,2026-02-10,India,47,5,291.9,3,4,3,343,10,0,At Risk Customers
+C0226,Rohan Singh,rohan.singh88@example.com,2025-07-15,United States,51,5,298.59000000000003,3,4,3,343,10,0,At Risk Customers
+C0227,James Anderson,james.anderson84@example.com,2025-03-15,India,215,4,318.6,1,3,3,133,7,0,At Risk Customers
+C0228,Emily Mishra,emily.mishra42@example.com,2025-12-08,India,56,3,255.5,3,2,3,323,8,0,At Risk Customers
+C0229,Ashley Rodriguez,ashley.rodriguez96@example.com,2025-10-07,India,36,6,802.47,4,4,4,444,12,3,Champions
+C0230,Richard Roy,richard.roy85@example.com,2025-06-03,United States,8,3,238.69,5,2,3,523,10,1,Loyalists
+C0231,Sandra Miller,sandra.miller68@example.com,2025-06-04,India,15,5,947.8,5,4,4,544,13,1,Loyalists
+C0232,William Taylor,william.taylor23@example.com,2025-05-02,India,382,3,122.92,1,2,2,122,5,0,At Risk Customers
+C0233,Robert Martin,robert.martin47@example.com,2025-12-25,India,26,9,1569.04,4,5,5,455,14,3,Champions
+C0234,Lisa Davis,lisa.davis11@example.com,2025-10-17,France,68,2,93.21,3,2,2,322,7,2,Lost Customers
+C0235,Ananya Young,ananya.young73@example.com,2025-05-27,Germany,312,1,17.59,1,1,1,111,3,2,Lost Customers
+C0236,Vikram Young,vikram.young55@example.com,2025-04-23,United States,51,10,1667.92,3,5,5,355,13,3,Champions
+C0237,Kiran Miller,kiran.miller96@example.com,2026-01-22,United Kingdom,4,5,489.65,5,4,4,544,13,1,Loyalists
+C0238,Meera Joshi,meera.joshi90@example.com,2025-11-27,India,12,5,582.77,5,4,4,544,13,1,Loyalists
+C0239,Richard Gupta,richard.gupta84@example.com,2025-07-06,United Kingdom,47,6,1135.97,3,4,5,345,12,3,Champions
+C0240,Diya Rodriguez,diya.rodriguez51@example.com,2026-01-18,United States,40,9,1271.05,4,5,5,455,14,3,Champions
+C0241,Siddharth Nair,siddharth.nair79@example.com,2025-07-07,United States,13,7,899.6700000000001,5,5,4,554,14,3,Champions
+C0242,Michael Smith,michael.smith42@example.com,2025-09-04,Australia,8,1,72.52,5,1,1,511,7,1,Loyalists
+C0243,Sarah Sen,sarah.sen24@example.com,2025-08-28,Australia,138,1,33.94,2,1,1,211,4,2,Lost Customers
+C0244,Neha Jones,neha.jones96@example.com,2026-01-06,United Kingdom,49,4,301.61,3,3,3,333,9,0,At Risk Customers
+C0245,Lisa Harris,lisa.harris56@example.com,2025-02-16,Germany,39,4,257.56,4,3,3,433,10,0,At Risk Customers
+C0246,Aarav Miller,aarav.miller78@example.com,2025-03-05,United States,67,5,690.39,3,4,4,344,11,0,At Risk Customers
+C0247,Emily Thompson,emily.thompson58@example.com,2025-11-23,Australia,11,16,4635.9,5,5,5,555,15,3,Champions
+C0248,Isha Jones,isha.jones70@example.com,2025-01-13,United States,532,1,66.09,1,1,1,111,3,2,Lost Customers
+C0249,Suresh Kumar,suresh.kumar88@example.com,2025-04-24,United States,111,5,299.15999999999997,2,4,3,243,9,0,At Risk Customers
+C0250,Ashley Martinez,ashley.martinez93@example.com,2025-07-29,India,50,18,5583.7,3,5,5,355,13,3,Champions
+C0251,Amit Gupta,amit.gupta48@example.com,2025-09-10,India,286,1,72.9,1,1,1,111,3,2,Lost Customers
+C0252,James White,james.white27@example.com,2025-07-18,United States,356,1,60.94,1,1,1,111,3,2,Lost Customers
+C0253,Anil Mukherjee,anil.mukherjee85@example.com,2026-01-16,United Kingdom,165,1,76.73,2,1,1,211,4,2,Lost Customers
+C0254,Thomas Joshi,thomas.joshi72@example.com,2025-11-12,United States,42,4,359.51,4,3,4,434,11,0,At Risk Customers
+C0255,Michael Gupta,michael.gupta98@example.com,2025-07-09,India,84,5,467.59000000000003,3,4,4,344,11,0,At Risk Customers
+C0256,Richard Garcia,richard.garcia56@example.com,2025-02-20,Singapore,3,1,34.66,5,1,1,511,7,1,Loyalists
+C0257,Karen White,karen.white92@example.com,2025-07-03,India,194,1,65.36,1,1,1,111,3,2,Lost Customers
+C0258,Michael Williams,michael.williams25@example.com,2025-08-21,India,28,3,144.67000000000002,4,2,2,422,8,1,Loyalists
+C0259,Tanvi Young,tanvi.young12@example.com,2025-01-26,Germany,61,8,1204.75,3,5,5,355,13,3,Champions
+C0260,James Nair,james.nair82@example.com,2025-04-16,India,11,7,1192.81,5,5,5,555,15,3,Champions
+C0261,Suresh Brown,suresh.brown85@example.com,2025-04-21,Germany,116,2,94.08,2,2,2,222,6,2,Lost Customers
+C0262,Vikram Sen,vikram.sen28@example.com,2026-02-08,Canada,56,4,351.32,3,3,4,334,10,0,At Risk Customers
+C0263,Aarav Davis,aarav.davis28@example.com,2025-03-08,United States,29,4,327.69,4,3,4,434,11,1,Loyalists
+C0264,Rohan Rao,rohan.rao94@example.com,2025-01-14,India,222,2,165.35,1,2,2,122,5,2,Lost Customers
+C0265,Robert Garcia,robert.garcia85@example.com,2025-06-15,India,15,4,525.01,5,3,4,534,12,1,Loyalists
+C0266,Emily Mehta,emily.mehta26@example.com,2026-01-15,United States,102,2,148.67000000000002,2,2,2,222,6,2,Lost Customers
+C0267,Kabir Patel,kabir.patel70@example.com,2025-08-18,Germany,72,3,227.12,3,2,3,323,8,0,At Risk Customers
+C0268,Sunita Thompson,sunita.thompson23@example.com,2025-08-20,United States,270,1,28.67,1,1,1,111,3,2,Lost Customers
+C0269,Kiran Gupta,kiran.gupta94@example.com,2025-09-24,India,25,15,4907.18,4,5,5,455,14,3,Champions
+C0270,Aditya Mehta,aditya.mehta71@example.com,2025-07-25,United States,149,5,303.28,2,4,3,243,9,0,At Risk Customers
+C0271,Isha Anderson,isha.anderson66@example.com,2025-02-07,Canada,457,1,31.32,1,1,1,111,3,2,Lost Customers
+C0272,John Young,john.young28@example.com,2025-02-03,India,5,4,269.05,5,3,3,533,11,1,Loyalists
+C0273,Kiran Thompson,kiran.thompson80@example.com,2025-12-31,India,8,5,295.79999999999995,5,4,3,543,12,1,Loyalists
+C0274,Sanjay Jackson,sanjay.jackson47@example.com,2025-08-21,United States,5,6,860.16,5,4,4,544,13,1,Loyalists
+C0275,Sandra Joshi,sandra.joshi99@example.com,2025-02-28,France,228,3,159.39000000000001,1,2,2,122,5,0,At Risk Customers
+C0276,Suresh Brown,suresh.brown65@example.com,2025-08-20,Canada,27,4,294.62,4,3,3,433,10,1,Loyalists
+C0277,Thomas Sen,thomas.sen68@example.com,2025-07-24,United States,42,13,4604.46,4,5,5,455,14,3,Champions
+C0278,Isha Kumar,isha.kumar64@example.com,2025-06-10,United Kingdom,93,4,175.3,2,3,2,232,7,0,At Risk Customers
+C0279,Karen Reddy,karen.reddy97@example.com,2025-08-31,India,65,4,286.0,3,3,3,333,9,0,At Risk Customers
+C0280,Diya Singh,diya.singh65@example.com,2025-02-19,United Kingdom,30,6,898.28,4,4,4,444,12,3,Champions
+C0281,Karen Nair,karen.nair81@example.com,2025-01-31,United States,124,2,71.69999999999999,2,2,1,221,5,2,Lost Customers
+C0282,Suresh Harris,suresh.harris52@example.com,2025-12-10,India,179,1,30.26,1,1,1,111,3,2,Lost Customers
+C0283,Robert Banerjee,robert.banerjee16@example.com,2025-05-28,United States,40,7,979.9000000000001,4,5,5,455,14,3,Champions
+C0284,Robert Joshi,robert.joshi83@example.com,2025-09-17,India,7,10,1436.2,5,5,5,555,15,3,Champions
+C0285,Rajesh Jones,rajesh.jones23@example.com,2025-06-29,France,38,10,1446.86,4,5,5,455,14,3,Champions
+C0286,Karen Rao,karen.rao45@example.com,2025-10-21,India,199,1,12.33,1,1,1,111,3,2,Lost Customers
+C0287,Sandra Harris,sandra.harris89@example.com,2025-11-11,United Kingdom,12,4,316.7,5,3,3,533,11,1,Loyalists
+C0288,Suresh Verma,suresh.verma87@example.com,2025-12-03,Germany,91,7,1075.55,2,5,5,255,12,0,At Risk Customers
+C0289,Michael Verma,michael.verma33@example.com,2025-05-20,United Kingdom,118,4,289.36,2,3,3,233,8,0,At Risk Customers
+C0290,David Sen,david.sen54@example.com,2025-01-04,India,16,2,225.42000000000002,5,2,3,523,10,1,Loyalists
+C0291,Neha Martin,neha.martin94@example.com,2025-07-25,India,137,5,326.79,2,4,4,244,10,0,At Risk Customers
+C0292,Aditya Singh,aditya.singh77@example.com,2025-04-21,India,268,2,171.51999999999998,1,2,2,122,5,2,Lost Customers
+C0293,Ashley Sen,ashley.sen30@example.com,2025-07-09,India,196,4,284.64,1,3,3,133,7,0,At Risk Customers
+C0294,John Martin,john.martin86@example.com,2025-02-13,Canada,232,2,87.64,1,2,1,121,4,2,Lost Customers
+C0295,Neha Smith,neha.smith89@example.com,2025-01-26,United Kingdom,164,3,222.65000000000003,2,2,3,223,7,0,At Risk Customers
+C0296,Michael Chatterjee,michael.chatterjee94@example.com,2025-08-06,United States,192,1,64.61,1,1,1,111,3,2,Lost Customers
+C0297,Richard Mukherjee,richard.mukherjee44@example.com,2025-04-21,Germany,125,3,254.8,2,2,3,223,7,0,At Risk Customers
+C0298,Kabir Roy,kabir.roy65@example.com,2025-02-26,India,400,1,68.9,1,1,1,111,3,2,Lost Customers
+C0299,Deepak Anderson,deepak.anderson77@example.com,2025-12-08,India,195,3,216.96,1,2,3,123,6,0,At Risk Customers
+C0300,Vikram Choudhury,vikram.choudhury86@example.com,2025-01-29,India,261,1,67.9,1,1,1,111,3,2,Lost Customers
+C0301,David Brown,david.brown27@example.com,2026-01-27,India,10,5,301.66999999999996,5,4,3,543,12,1,Loyalists
+C0302,John Rao,john.rao10@example.com,2025-09-12,United Kingdom,328,1,33.87,1,1,1,111,3,2,Lost Customers
+C0303,Rohan Nair,rohan.nair58@example.com,2025-09-30,United Kingdom,34,7,1178.65,4,5,5,455,14,3,Champions
+C0304,Sunita Harris,sunita.harris95@example.com,2026-02-17,India,17,1,66.72,5,1,1,511,7,1,Loyalists
+C0305,Lisa Gupta,lisa.gupta65@example.com,2025-01-10,United States,5,4,310.72,5,3,3,533,11,1,Loyalists
+C0306,Arjun Kumar,arjun.kumar83@example.com,2025-08-08,United States,152,2,147.68,2,2,2,222,6,2,Lost Customers
+C0307,Thomas Rodriguez,thomas.rodriguez24@example.com,2025-07-27,India,24,15,5060.0199999999995,4,5,5,455,14,3,Champions
+C0308,John Smith,john.smith89@example.com,2025-08-24,France,147,3,246.70000000000002,2,2,3,223,7,0,At Risk Customers
+C0309,Karen Singh,karen.singh65@example.com,2025-02-24,India,47,8,1411.42,3,5,5,355,13,3,Champions
+C0310,Deepak Choudhury,deepak.choudhury77@example.com,2025-02-10,India,139,1,57.19,2,1,1,211,4,2,Lost Customers
+C0311,David Sen,david.sen38@example.com,2025-06-20,Germany,31,4,246.19,4,3,3,433,10,1,Loyalists
+C0312,Arjun Thomas,arjun.thomas91@example.com,2025-02-28,United States,141,5,402.42,2,4,4,244,10,0,At Risk Customers
+C0313,Siddharth Roy,siddharth.roy54@example.com,2026-01-08,Australia,120,2,176.95,2,2,2,222,6,0,At Risk Customers
+C0314,Neha Garcia,neha.garcia23@example.com,2025-03-16,India,1,5,290.01,5,4,3,543,12,1,Loyalists
+C0315,Rohan Young,rohan.young29@example.com,2026-01-25,Germany,37,8,1289.72,4,5,5,455,14,3,Champions
+C0316,Arjun Johnson,arjun.johnson90@example.com,2025-09-10,United States,330,1,51.89,1,1,1,111,3,2,Lost Customers
+C0317,Gita Thompson,gita.thompson67@example.com,2025-12-15,Canada,6,16,5592.4400000000005,5,5,5,555,15,3,Champions
+C0318,Gita King,gita.king51@example.com,2025-11-18,India,25,12,3979.95,4,5,5,455,14,3,Champions
+C0319,Richard Patel,richard.patel70@example.com,2025-08-15,United States,111,6,784.0699999999999,2,4,4,244,10,0,At Risk Customers
+C0320,Michael Thompson,michael.thompson17@example.com,2025-06-30,United States,104,8,1361.99,2,5,5,255,12,3,Champions
+C0321,David Mishra,david.mishra67@example.com,2025-01-20,India,23,10,1394.7,4,5,5,455,14,3,Champions
+C0322,Sarah Patel,sarah.patel92@example.com,2025-02-16,United States,265,1,43.83,1,1,1,111,3,2,Lost Customers
+C0323,Sunita Das,sunita.das69@example.com,2025-10-25,United States,20,14,4618.110000000001,4,5,5,455,14,3,Champions
+C0324,Amit Chatterjee,amit.chatterjee83@example.com,2025-11-30,India,14,5,213.98,5,4,2,542,11,1,Loyalists
+C0325,Sanjay Taylor,sanjay.taylor74@example.com,2025-03-19,Australia,34,10,1367.77,4,5,5,455,14,3,Champions
+C0326,Richard Joshi,richard.joshi53@example.com,2026-01-01,India,35,3,181.58999999999997,4,2,2,422,8,1,Loyalists
+C0327,Rohan Gupta,rohan.gupta41@example.com,2025-12-29,United States,28,4,231.34,4,3,3,433,10,1,Loyalists
+C0328,Richard Jackson,richard.jackson76@example.com,2025-11-09,India,214,1,45.82,1,1,1,111,3,2,Lost Customers
+C0329,Karen Rodriguez,karen.rodriguez59@example.com,2025-07-29,Germany,63,5,370.86,3,4,4,344,11,0,At Risk Customers
+C0330,Sanjay Mehta,sanjay.mehta90@example.com,2025-11-28,India,15,5,475.28,5,4,4,544,13,1,Loyalists
+C0331,Jessica Joshi,jessica.joshi81@example.com,2025-12-14,India,85,4,299.14,3,3,3,333,9,0,At Risk Customers
+C0332,Emily Young,emily.young29@example.com,2025-06-20,India,59,4,347.23,3,3,4,334,10,0,At Risk Customers
+C0333,Neha Roy,neha.roy49@example.com,2025-12-02,United Kingdom,119,3,251.03,2,2,3,223,7,0,At Risk Customers
+C0334,Lisa Nair,lisa.nair86@example.com,2025-12-29,Australia,149,2,214.3,2,2,3,223,7,0,At Risk Customers
+C0335,David Harris,david.harris58@example.com,2025-11-26,Germany,9,5,255.67,5,4,3,543,12,1,Loyalists
+C0336,Meera Jackson,meera.jackson21@example.com,2025-11-27,United Kingdom,29,2,67.39,4,2,1,421,7,1,Loyalists
+C0337,Sunita Bose,sunita.bose12@example.com,2025-07-05,India,19,1,21.85,5,1,1,511,7,2,Lost Customers
+C0338,Tanvi Sen,tanvi.sen72@example.com,2025-04-09,India,121,6,633.1,2,4,4,244,10,0,At Risk Customers
+C0339,Meera Reddy,meera.reddy19@example.com,2025-06-01,France,18,5,413.08,5,4,4,544,13,1,Loyalists
+C0340,Isha Thomas,isha.thomas79@example.com,2026-01-14,Canada,28,4,271.17,4,3,3,433,10,1,Loyalists
+C0341,Amit Sen,amit.sen89@example.com,2025-03-09,United States,51,5,258.74,3,4,3,343,10,0,At Risk Customers
+C0342,Neha Smith,neha.smith33@example.com,2025-12-21,Germany,5,5,389.48,5,4,4,544,13,1,Loyalists
+C0343,Pranav Chatterjee,pranav.chatterjee15@example.com,2025-07-30,India,29,8,2851.09,4,5,5,455,14,3,Champions
+C0344,James Chatterjee,james.chatterjee88@example.com,2025-05-26,Germany,61,4,325.73,3,3,4,334,10,0,At Risk Customers
+C0345,Richard Jones,richard.jones78@example.com,2025-05-03,India,101,3,273.43,2,2,3,223,7,0,At Risk Customers
+C0346,Rajesh Williams,rajesh.williams57@example.com,2025-12-14,Australia,53,1,26.46,3,1,1,311,5,2,Lost Customers
+C0347,Richard Mishra,richard.mishra46@example.com,2026-02-03,India,42,1,51.94,4,1,1,411,6,2,Lost Customers
+C0348,Vijay Mukherjee,vijay.mukherjee30@example.com,2025-04-13,Germany,272,3,134.35,1,2,2,122,5,0,At Risk Customers
+C0349,Meera Miller,meera.miller16@example.com,2025-11-25,United States,251,1,28.27,1,1,1,111,3,2,Lost Customers
+C0350,Karen Harris,karen.harris23@example.com,2025-12-31,France,58,5,372.8,3,4,4,344,11,0,At Risk Customers
+C0351,Kabir Rodriguez,kabir.rodriguez20@example.com,2026-01-26,India,1,2,173.32,5,2,2,522,9,1,Loyalists
+C0352,Richard Thomas,richard.thomas28@example.com,2025-08-12,India,11,4,304.40999999999997,5,3,3,533,11,1,Loyalists
+C0353,Vikram Chatterjee,vikram.chatterjee54@example.com,2025-01-14,United States,138,1,13.4,2,1,1,211,4,2,Lost Customers
+C0354,Lisa Thomas,lisa.thomas57@example.com,2025-05-01,India,14,15,4792.82,5,5,5,555,15,3,Champions
+C0355,Diya Bose,diya.bose38@example.com,2025-01-15,India,135,3,185.35999999999999,2,2,2,222,6,0,At Risk Customers
+C0356,Isha Sen,isha.sen28@example.com,2025-03-12,India,194,4,180.01999999999998,1,3,2,132,6,0,At Risk Customers
+C0357,Rajesh Nair,rajesh.nair70@example.com,2025-08-18,United States,66,5,282.95,3,4,3,343,10,0,At Risk Customers
+C0358,Diya Verma,diya.verma42@example.com,2025-04-21,France,187,5,419.11,1,4,4,144,9,0,At Risk Customers
+C0359,Suresh Young,suresh.young77@example.com,2025-08-05,India,96,4,234.35,2,3,3,233,8,0,At Risk Customers
+C0360,Sarah Garcia,sarah.garcia48@example.com,2025-03-04,India,74,5,282.55,3,4,3,343,10,0,At Risk Customers
+C0361,Thomas King,thomas.king68@example.com,2025-02-02,India,19,1,68.09,5,1,1,511,7,1,Loyalists
+C0362,Priya Young,priya.young78@example.com,2025-01-09,United States,168,2,116.91,2,2,2,222,6,2,Lost Customers
+C0363,Gita Garcia,gita.garcia28@example.com,2025-05-30,United States,135,1,53.39,2,1,1,211,4,2,Lost Customers
+C0364,Kiran Roy,kiran.roy40@example.com,2025-10-20,United States,63,5,334.2,3,4,4,344,11,0,At Risk Customers
+C0365,Diya Jackson,diya.jackson56@example.com,2025-02-04,Australia,108,2,196.73000000000002,2,2,2,222,6,0,At Risk Customers
+C0366,Anil Thomas,anil.thomas74@example.com,2025-10-11,India,4,2,124.48,5,2,2,522,9,1,Loyalists
+C0367,Rajesh Gupta,rajesh.gupta91@example.com,2025-07-18,Singapore,27,7,1210.71,4,5,5,455,14,3,Champions
+C0368,Emily Verma,emily.verma55@example.com,2026-02-08,India,9,1,21.83,5,1,1,511,7,1,Loyalists
+C0369,James Joshi,james.joshi84@example.com,2026-01-12,Germany,39,5,855.58,4,4,4,444,12,0,At Risk Customers
+C0370,Meera Gupta,meera.gupta55@example.com,2025-10-07,India,19,10,1563.46,5,5,5,555,15,3,Champions
+C0371,Rohan Mishra,rohan.mishra99@example.com,2025-09-03,United States,20,7,1081.65,4,5,5,455,14,3,Champions
+C0372,Meera Patel,meera.patel68@example.com,2025-01-19,India,28,2,182.59,4,2,2,422,8,1,Loyalists
+C0373,Amit Williams,amit.williams15@example.com,2025-06-11,Australia,102,3,189.1,2,2,2,222,6,0,At Risk Customers
+C0374,Sunita Choudhury,sunita.choudhury79@example.com,2025-08-31,India,30,6,983.5999999999999,4,4,5,445,13,3,Champions
+C0375,Siddharth Rodriguez,siddharth.rodriguez55@example.com,2026-02-04,India,44,3,272.57,3,2,3,323,8,0,At Risk Customers
+C0376,Jessica Davis,jessica.davis25@example.com,2026-02-14,India,12,18,6499.92,5,5,5,555,15,3,Champions
+C0377,Lisa Chatterjee,lisa.chatterjee59@example.com,2025-06-23,Singapore,42,1,32.07,4,1,1,411,6,2,Lost Customers
+C0378,Priya Anderson,priya.anderson57@example.com,2026-02-13,United States,5,5,242.56,5,4,3,543,12,1,Loyalists
+C0379,Diya Banerjee,diya.banerjee20@example.com,2025-08-09,United States,15,19,6104.2,5,5,5,555,15,3,Champions
+C0380,Rohan White,rohan.white47@example.com,2025-06-14,India,28,4,303.28,4,3,3,433,10,1,Loyalists
+C0381,John Rodriguez,john.rodriguez49@example.com,2025-08-17,United States,18,5,396.07,5,4,4,544,13,1,Loyalists
+C0382,Sandra Smith,sandra.smith98@example.com,2025-08-16,India,50,1,67.98,3,1,1,311,5,2,Lost Customers
+C0383,Amit Roy,amit.roy88@example.com,2025-08-11,India,80,6,885.32,3,4,4,344,11,0,At Risk Customers
+C0384,Ananya Patel,ananya.patel95@example.com,2025-11-23,United States,45,4,334.46,3,3,4,334,10,0,At Risk Customers
+C0385,Sunita Smith,sunita.smith13@example.com,2025-03-15,France,4,19,5590.360000000001,5,5,5,555,15,3,Champions
+C0386,Richard Gupta,richard.gupta26@example.com,2025-02-04,India,53,1,24.29,3,1,1,311,5,2,Lost Customers
+C0387,Karen Bose,karen.bose59@example.com,2025-10-18,India,66,4,156.04000000000002,3,3,2,332,8,0,At Risk Customers
+C0388,Neha Chatterjee,neha.chatterjee57@example.com,2025-07-10,United States,70,5,825.21,3,4,4,344,11,0,At Risk Customers
+C0389,Arjun Martin,arjun.martin27@example.com,2025-09-29,India,119,3,132.72,2,2,2,222,6,0,At Risk Customers
+C0390,John Davis,john.davis41@example.com,2025-02-28,India,65,3,221.29000000000002,3,2,3,323,8,0,At Risk Customers
+C0391,Rohan Anderson,rohan.anderson76@example.com,2025-07-18,Canada,60,6,734.57,3,4,4,344,11,0,At Risk Customers
+C0392,Kabir Miller,kabir.miller43@example.com,2025-12-27,United States,97,4,308.23,2,3,3,233,8,0,At Risk Customers
+C0393,Kiran Rodriguez,kiran.rodriguez98@example.com,2025-09-09,India,67,6,834.37,3,4,4,344,11,0,At Risk Customers
+C0394,Meera Patel,meera.patel67@example.com,2025-03-30,Canada,47,11,3738.68,3,5,5,355,13,3,Champions
+C0395,Richard Singh,richard.singh97@example.com,2025-06-13,United Kingdom,233,3,177.53,1,2,2,122,5,0,At Risk Customers
+C0396,Arjun Harris,arjun.harris79@example.com,2025-05-29,Canada,343,1,41.04,1,1,1,111,3,2,Lost Customers
+C0397,Pranav Johnson,pranav.johnson56@example.com,2025-09-18,India,10,1,18.21,5,1,1,511,7,1,Loyalists
+C0398,Siddharth Nair,siddharth.nair40@example.com,2026-02-09,United States,8,5,355.21000000000004,5,4,4,544,13,1,Loyalists
+C0399,Karen Harris,karen.harris83@example.com,2025-07-08,United States,20,1,30.38,4,1,1,411,6,2,Lost Customers
+C0400,Suresh Nair,suresh.nair88@example.com,2025-02-14,India,305,1,70.86,1,1,1,111,3,2,Lost Customers
+C0401,Lisa Taylor,lisa.taylor77@example.com,2025-07-30,Germany,21,5,419.59000000000003,4,4,4,444,12,1,Loyalists
+C0402,Gita Patel,gita.patel26@example.com,2025-06-12,United States,6,5,942.73,5,4,4,544,13,1,Loyalists
+C0403,Richard Mishra,richard.mishra97@example.com,2025-09-22,India,131,1,60.28,2,1,1,211,4,2,Lost Customers
+C0404,Suresh Thompson,suresh.thompson33@example.com,2026-01-29,Australia,17,5,315.78999999999996,5,4,3,543,12,1,Loyalists
+C0405,Sandra Thomas,sandra.thomas17@example.com,2025-03-05,United States,123,4,306.08,2,3,3,233,8,0,At Risk Customers
+C0406,David Smith,david.smith30@example.com,2025-06-15,Australia,3,2,171.77,5,2,2,522,9,1,Loyalists
+C0407,Vikram Roy,vikram.roy76@example.com,2025-05-26,France,82,2,112.99000000000001,3,2,2,322,7,2,Lost Customers
+C0408,Emily Williams,emily.williams91@example.com,2025-10-10,India,135,1,33.59,2,1,1,211,4,2,Lost Customers
+C0409,David King,david.king78@example.com,2025-02-17,United States,232,3,222.95999999999998,1,2,3,123,6,0,At Risk Customers
+C0410,Pranav Thompson,pranav.thompson84@example.com,2025-03-20,India,104,2,164.9,2,2,2,222,6,0,At Risk Customers
+C0411,Kiran Young,kiran.young53@example.com,2025-10-16,India,17,4,286.86,5,3,3,533,11,1,Loyalists
+C0412,Aditya Singh,aditya.singh15@example.com,2025-11-25,Germany,194,1,10.87,1,1,1,111,3,2,Lost Customers
+C0413,Emily Brown,emily.brown83@example.com,2025-08-02,United States,22,5,363.04,4,4,4,444,12,1,Loyalists
+C0414,Aditya Anderson,aditya.anderson90@example.com,2025-10-07,India,21,5,703.8199999999999,4,4,4,444,12,1,Loyalists
+C0415,David Taylor,david.taylor41@example.com,2026-02-17,Germany,9,17,5424.82,5,5,5,555,15,3,Champions
+C0416,Lisa Martinez,lisa.martinez68@example.com,2025-02-07,United Kingdom,48,4,194.32,3,3,2,332,8,0,At Risk Customers
+C0417,Pranav Chatterjee,pranav.chatterjee63@example.com,2025-09-05,United States,64,2,142.27,3,2,2,322,7,0,At Risk Customers
+C0418,Jessica Young,jessica.young28@example.com,2025-06-10,France,41,7,880.1800000000001,4,5,4,454,13,3,Champions
+C0419,John Roy,john.roy61@example.com,2025-03-08,Germany,28,20,7255.6900000000005,4,5,5,455,14,3,Champions
+C0420,Sunita Harris,sunita.harris23@example.com,2025-06-13,India,199,2,206.4,1,2,2,122,5,0,At Risk Customers
+C0421,Kabir Davis,kabir.davis67@example.com,2025-05-07,India,411,2,224.64,1,2,3,123,6,2,Lost Customers
+C0422,Ananya Rodriguez,ananya.rodriguez59@example.com,2025-11-12,United States,32,9,1363.32,4,5,5,455,14,3,Champions
+C0423,Pranav Kumar,pranav.kumar83@example.com,2026-01-05,India,31,10,1442.97,4,5,5,455,14,3,Champions
+C0424,Pranav Anderson,pranav.anderson75@example.com,2025-08-28,United States,178,3,212.82,1,2,2,122,5,0,At Risk Customers
+C0425,David Anderson,david.anderson12@example.com,2025-02-16,Australia,99,3,151.09,2,2,2,222,6,0,At Risk Customers
+C0426,Sunita Mishra,sunita.mishra40@example.com,2025-04-21,United States,201,4,146.04,1,3,2,132,6,0,At Risk Customers
+C0427,Ananya Mehta,ananya.mehta46@example.com,2025-09-11,United States,22,3,178.51000000000002,4,2,2,422,8,1,Loyalists
+C0428,Rajesh Rodriguez,rajesh.rodriguez78@example.com,2025-01-05,France,105,9,1585.91,2,5,5,255,12,3,Champions
+C0429,Sandra Nair,sandra.nair43@example.com,2026-01-08,India,1,5,447.67,5,4,4,544,13,1,Loyalists
+C0430,Lisa Bose,lisa.bose15@example.com,2025-07-25,India,72,5,403.01,3,4,4,344,11,0,At Risk Customers
+C0431,Suresh Williams,suresh.williams56@example.com,2025-10-11,India,25,5,419.31,4,4,4,444,12,1,Loyalists
+C0432,William Thomas,william.thomas67@example.com,2026-01-27,United States,32,2,141.73,4,2,2,422,8,1,Loyalists
+C0433,Kiran King,kiran.king25@example.com,2025-03-07,Singapore,211,2,228.95999999999998,1,2,3,123,6,0,At Risk Customers
+C0434,Lisa Bose,lisa.bose53@example.com,2025-10-13,Australia,29,6,1103.12,4,4,5,445,13,3,Champions
+C0435,Neha Williams,neha.williams87@example.com,2025-09-18,United States,316,1,19.49,1,1,1,111,3,2,Lost Customers
+C0436,Amit Gupta,amit.gupta14@example.com,2025-03-12,United Kingdom,155,5,523.22,2,4,4,244,10,0,At Risk Customers
+C0437,Rajesh Jackson,rajesh.jackson68@example.com,2025-03-18,United States,93,10,1789.93,2,5,5,255,12,3,Champions
+C0438,Sunita Nair,sunita.nair51@example.com,2025-11-10,India,66,4,252.86,3,3,3,333,9,0,At Risk Customers
+C0439,Lisa King,lisa.king48@example.com,2025-10-31,India,130,2,206.77,2,2,2,222,6,0,At Risk Customers
+C0440,Sunita White,sunita.white72@example.com,2025-12-29,United States,139,1,14.55,2,1,1,211,4,2,Lost Customers
+C0441,Rajesh Verma,rajesh.verma57@example.com,2025-06-19,United Kingdom,22,10,1846.81,4,5,5,455,14,3,Champions
+C0442,Thomas Thompson,thomas.thompson49@example.com,2026-02-12,Canada,3,16,5121.51,5,5,5,555,15,3,Champions
+C0443,Aditya Young,aditya.young70@example.com,2025-05-16,Australia,1,5,352.45,5,4,4,544,13,1,Loyalists
+C0444,Deepak Martin,deepak.martin39@example.com,2026-01-05,India,158,3,133.56,2,2,2,222,6,0,At Risk Customers
+C0445,Rajesh Smith,rajesh.smith77@example.com,2025-11-19,United Kingdom,25,3,176.10000000000002,4,2,2,422,8,1,Loyalists
+C0446,William Reddy,william.reddy97@example.com,2025-05-05,India,259,4,275.53,1,3,3,133,7,0,At Risk Customers
+C0447,Kabir Williams,kabir.williams12@example.com,2025-08-14,India,19,4,257.06,5,3,3,533,11,1,Loyalists
+C0448,Neha Mukherjee,neha.mukherjee98@example.com,2025-04-15,United States,31,8,1366.0900000000001,4,5,5,455,14,3,Champions
+C0449,Kiran Taylor,kiran.taylor17@example.com,2025-12-28,India,36,5,364.14,4,4,4,444,12,0,At Risk Customers
+C0450,Tanvi Harris,tanvi.harris51@example.com,2025-12-06,United States,113,3,254.14,2,2,3,223,7,0,At Risk Customers
+C0451,William Kumar,william.kumar32@example.com,2025-08-24,Canada,51,10,1604.16,3,5,5,355,13,3,Champions
+C0452,Jessica White,jessica.white55@example.com,2025-12-13,Germany,13,4,622.6,5,3,4,534,12,1,Loyalists
+C0453,Emily King,emily.king71@example.com,2025-04-09,Australia,1,13,4359.34,5,5,5,555,15,3,Champions
+C0454,Michael Harris,michael.harris48@example.com,2025-04-26,Australia,22,8,1024.44,4,5,5,455,14,3,Champions
+C0455,David Rodriguez,david.rodriguez36@example.com,2025-12-20,United Kingdom,23,10,1522.2,4,5,5,455,14,3,Champions
+C0456,John Taylor,john.taylor54@example.com,2025-10-14,Australia,20,2,229.14,4,2,3,423,9,1,Loyalists
+C0457,Michael Rodriguez,michael.rodriguez25@example.com,2025-10-21,United Kingdom,90,3,252.66000000000003,3,2,3,323,8,0,At Risk Customers
+C0458,William Choudhury,william.choudhury54@example.com,2026-01-31,Germany,80,3,214.92,3,2,3,323,8,0,At Risk Customers
+C0459,Sarah Gupta,sarah.gupta46@example.com,2026-01-01,India,19,4,235.75,5,3,3,533,11,1,Loyalists
+C0460,Richard Miller,richard.miller71@example.com,2025-04-20,India,119,2,94.22,2,2,2,222,6,2,Lost Customers
+C0461,Anil Davis,anil.davis81@example.com,2025-12-23,India,17,6,816.29,5,4,4,544,13,3,Champions
+C0462,Isha King,isha.king85@example.com,2025-05-03,India,310,1,61.46,1,1,1,111,3,2,Lost Customers
+C0463,Vijay Jones,vijay.jones91@example.com,2025-04-30,India,20,17,5944.51,4,5,5,455,14,3,Champions
+C0464,Thomas Sen,thomas.sen70@example.com,2025-02-21,United Kingdom,232,1,26.93,1,1,1,111,3,2,Lost Customers
+C0465,Meera Sharma,meera.sharma80@example.com,2025-03-22,United States,84,5,794.45,3,4,4,344,11,0,At Risk Customers
+C0466,Rajesh Taylor,rajesh.taylor93@example.com,2025-04-13,Germany,100,7,970.65,2,5,4,254,11,0,At Risk Customers
+C0467,Sarah Kumar,sarah.kumar46@example.com,2025-11-27,India,23,2,110.69,4,2,2,422,8,1,Loyalists
+C0468,Diya Martin,diya.martin39@example.com,2025-10-01,United Kingdom,14,15,4560.3,5,5,5,555,15,3,Champions
+C0469,Amit Johnson,amit.johnson63@example.com,2025-04-01,Australia,57,9,2844.43,3,5,5,355,13,3,Champions
+C0470,Amit Choudhury,amit.choudhury73@example.com,2025-04-06,Australia,86,8,2495.1,3,5,5,355,13,3,Champions
+C0471,Sarah Gupta,sarah.gupta11@example.com,2025-06-02,United States,21,5,955.39,4,4,4,444,12,1,Loyalists
+C0472,Isha Sen,isha.sen46@example.com,2025-08-21,Singapore,34,3,237.44,4,2,3,423,9,1,Loyalists
+C0473,Anil Jackson,anil.jackson73@example.com,2025-03-10,France,101,2,123.92,2,2,2,222,6,2,Lost Customers
+C0474,Ashley Davis,ashley.davis34@example.com,2026-02-19,India,6,5,377.01,5,4,4,544,13,1,Loyalists
+C0475,Pranav Mishra,pranav.mishra92@example.com,2025-05-12,United Kingdom,2,4,332.18,5,3,4,534,12,1,Loyalists
+C0476,Aarav Sen,aarav.sen47@example.com,2025-10-18,United Kingdom,96,4,222.86,2,3,3,233,8,0,At Risk Customers
+C0477,Siddharth Johnson,siddharth.johnson88@example.com,2025-11-24,Canada,15,16,4957.09,5,5,5,555,15,3,Champions
+C0478,Sandra Thomas,sandra.thomas51@example.com,2025-02-14,United States,82,11,3236.59,3,5,5,355,13,3,Champions
+C0479,Isha Johnson,isha.johnson27@example.com,2025-09-02,India,8,5,373.94,5,4,4,544,13,1,Loyalists
+C0480,James Sharma,james.sharma43@example.com,2025-07-16,India,30,7,1084.78,4,5,5,455,14,3,Champions
+C0481,Michael Sen,michael.sen48@example.com,2025-10-26,United Kingdom,34,6,717.4000000000001,4,4,4,444,12,3,Champions
+C0482,Aarav Miller,aarav.miller93@example.com,2025-07-04,United Kingdom,12,3,266.56,5,2,3,523,10,1,Loyalists
+C0483,Ananya Rao,ananya.rao69@example.com,2025-06-07,India,41,5,376.27,4,4,4,444,12,0,At Risk Customers
+C0484,Sunita Martinez,sunita.martinez98@example.com,2025-03-02,United States,203,4,670.61,1,3,4,134,8,0,At Risk Customers
+C0485,Sarah Bose,sarah.bose88@example.com,2025-04-24,India,247,1,27.21,1,1,1,111,3,2,Lost Customers
+C0486,Meera Taylor,meera.taylor29@example.com,2025-08-21,United Kingdom,57,9,1672.88,3,5,5,355,13,3,Champions
+C0487,Sanjay Bose,sanjay.bose63@example.com,2025-12-26,United States,39,5,340.0,4,4,4,444,12,0,At Risk Customers
+C0488,Rajesh White,rajesh.white95@example.com,2025-04-22,Germany,23,11,3526.54,4,5,5,455,14,3,Champions
+C0489,Sanjay Singh,sanjay.singh77@example.com,2025-08-17,United States,197,1,65.9,1,1,1,111,3,2,Lost Customers
+C0490,Karen Patel,karen.patel82@example.com,2025-02-27,India,21,4,266.01,4,3,3,433,10,1,Loyalists
+C0491,Suresh Thomas,suresh.thomas35@example.com,2025-10-21,United States,12,5,228.62,5,4,3,543,12,1,Loyalists
+C0492,Pranav Kumar,pranav.kumar76@example.com,2025-08-15,India,263,1,10.04,1,1,1,111,3,2,Lost Customers
+C0493,Tanvi Thompson,tanvi.thompson72@example.com,2025-02-16,Canada,80,4,869.73,3,3,4,334,10,0,At Risk Customers
+C0494,Richard Mehta,richard.mehta68@example.com,2025-03-09,United States,195,1,46.87,1,1,1,111,3,2,Lost Customers
+C0495,Ashley Martin,ashley.martin17@example.com,2025-10-14,United States,6,6,898.18,5,4,4,544,13,1,Loyalists
+C0496,David Verma,david.verma60@example.com,2025-05-11,Germany,127,4,212.55,2,3,2,232,7,0,At Risk Customers
+C0497,Tanvi Thompson,tanvi.thompson19@example.com,2025-01-24,United States,35,15,4929.59,4,5,5,455,14,3,Champions
+C0498,Arjun White,arjun.white17@example.com,2025-02-05,Singapore,151,5,388.11,2,4,4,244,10,0,At Risk Customers
+C0499,Rajesh Gupta,rajesh.gupta46@example.com,2025-07-29,India,87,10,1688.46,3,5,5,355,13,3,Champions
+C0500,Meera Mukherjee,meera.mukherjee57@example.com,2025-07-15,United States,17,4,343.58000000000004,5,3,4,534,12,1,Loyalists
+C0501,William Das,william.das20@example.com,2025-12-16,Australia,2,1,29.45,5,1,1,511,7,1,Loyalists
+C0502,Anil Nair,anil.nair93@example.com,2025-06-28,India,399,1,63.96,1,1,1,111,3,2,Lost Customers
+C0503,Anil Choudhury,anil.choudhury77@example.com,2025-03-07,United Kingdom,14,10,1452.7,5,5,5,555,15,3,Champions
+C0504,Vikram Sharma,vikram.sharma12@example.com,2025-06-02,United States,331,2,178.2,1,2,2,122,5,2,Lost Customers
+C0505,Anil Banerjee,anil.banerjee78@example.com,2025-07-14,Germany,27,4,301.26,4,3,3,433,10,1,Loyalists
+C0506,James Mishra,james.mishra54@example.com,2025-03-21,India,78,5,223.23000000000002,3,4,3,343,10,0,At Risk Customers
+C0507,Kabir Gupta,kabir.gupta94@example.com,2025-08-03,United States,65,10,1686.47,3,5,5,355,13,3,Champions
+C0508,Aditya Garcia,aditya.garcia36@example.com,2025-02-04,India,38,3,315.97,4,2,3,423,9,1,Loyalists
+C0509,Amit Chatterjee,amit.chatterjee86@example.com,2025-12-11,United Kingdom,62,5,547.94,3,4,4,344,11,0,At Risk Customers
+C0510,Ananya Garcia,ananya.garcia15@example.com,2025-07-25,United States,8,5,341.11,5,4,4,544,13,1,Loyalists
+C0511,Anil Brown,anil.brown17@example.com,2025-03-13,United States,37,18,5019.38,4,5,5,455,14,3,Champions
+C0512,Sarah Jones,sarah.jones83@example.com,2025-06-13,United States,13,2,148.22,5,2,2,522,9,1,Loyalists
+C0513,John Garcia,john.garcia48@example.com,2025-03-15,Singapore,244,1,50.37,1,1,1,111,3,2,Lost Customers
+C0514,Vijay Jones,vijay.jones62@example.com,2025-06-03,India,128,5,801.3,2,4,4,244,10,0,At Risk Customers
+C0515,Suresh Thompson,suresh.thompson32@example.com,2025-11-17,United Kingdom,69,2,180.51,3,2,2,322,7,0,At Risk Customers
+C0516,Suresh Anderson,suresh.anderson16@example.com,2025-06-26,Australia,39,11,3273.4700000000003,4,5,5,455,14,3,Champions
+C0517,William Jackson,william.jackson50@example.com,2025-12-23,United States,44,5,185.28,3,4,2,342,9,0,At Risk Customers
+C0518,Neha Martinez,neha.martinez58@example.com,2025-04-05,Germany,17,4,269.43,5,3,3,533,11,1,Loyalists
+C0519,Rajesh Garcia,rajesh.garcia38@example.com,2025-06-03,France,106,4,188.64,2,3,2,232,7,0,At Risk Customers
+C0520,Neha Mishra,neha.mishra17@example.com,2025-10-15,United States,25,9,1223.32,4,5,5,455,14,3,Champions
+C0521,Thomas Harris,thomas.harris77@example.com,2025-03-10,India,388,1,26.19,1,1,1,111,3,2,Lost Customers
+C0522,Emily Brown,emily.brown52@example.com,2025-11-28,India,35,5,237.33,4,4,3,443,11,1,Loyalists
+C0523,Richard Bose,richard.bose21@example.com,2025-10-02,United Kingdom,9,3,200.63,5,2,2,522,9,1,Loyalists
+C0524,Siddharth Mehta,siddharth.mehta44@example.com,2025-07-13,United Kingdom,82,5,434.26,3,4,4,344,11,0,At Risk Customers
+C0525,Sanjay Gupta,sanjay.gupta19@example.com,2025-04-07,Germany,109,10,1319.58,2,5,5,255,12,3,Champions
+C0526,Deepak Harris,deepak.harris37@example.com,2025-09-03,India,39,4,261.6,4,3,3,433,10,0,At Risk Customers
+C0527,Jessica Martinez,jessica.martinez11@example.com,2025-04-19,Australia,41,6,1204.99,4,4,5,445,13,3,Champions
+C0528,Kabir Taylor,kabir.taylor41@example.com,2025-12-23,United States,154,2,147.4,2,2,2,222,6,2,Lost Customers
+C0529,Tanvi Choudhury,tanvi.choudhury40@example.com,2025-10-10,India,98,5,286.95,2,4,3,243,9,0,At Risk Customers
+C0530,Sarah Das,sarah.das69@example.com,2025-10-01,United States,24,2,56.47,4,2,1,421,7,1,Loyalists
+C0531,David Miller,david.miller56@example.com,2025-09-20,Canada,110,1,64.86,2,1,1,211,4,2,Lost Customers
+C0532,Ashley Joshi,ashley.joshi70@example.com,2026-01-25,France,6,2,201.92000000000002,5,2,2,522,9,1,Loyalists
+C0533,Tanvi Bose,tanvi.bose50@example.com,2025-07-31,India,60,9,2818.92,3,5,5,355,13,3,Champions
+C0534,Vikram Reddy,vikram.reddy12@example.com,2025-05-14,United States,299,2,118.25999999999999,1,2,2,122,5,2,Lost Customers
+C0535,Deepak Thompson,deepak.thompson63@example.com,2025-06-01,India,2,10,1799.9,5,5,5,555,15,3,Champions
+C0536,Jessica Jones,jessica.jones58@example.com,2025-10-19,France,101,2,136.44,2,2,2,222,6,2,Lost Customers
+C0537,Priya Harris,priya.harris93@example.com,2025-12-17,India,23,9,1200.42,4,5,5,455,14,3,Champions
+C0538,Priya Anderson,priya.anderson68@example.com,2025-03-28,United Kingdom,105,2,76.44,2,2,1,221,5,2,Lost Customers
+C0539,Robert Smith,robert.smith27@example.com,2026-01-04,United States,31,2,132.32999999999998,4,2,2,422,8,1,Loyalists
+C0540,Rohan White,rohan.white92@example.com,2025-01-31,United States,227,4,340.12,1,3,4,134,8,0,At Risk Customers
+C0541,Arjun Mehta,arjun.mehta10@example.com,2025-07-31,India,21,4,306.61,4,3,3,433,10,1,Loyalists
+C0542,Vikram Patel,vikram.patel29@example.com,2025-01-05,India,455,3,251.82999999999998,1,2,3,123,6,0,At Risk Customers
+C0543,Ashley Bose,ashley.bose17@example.com,2025-11-13,United States,22,1,44.77,4,1,1,411,6,2,Lost Customers
+C0544,Kiran Taylor,kiran.taylor94@example.com,2025-09-07,India,79,2,225.25,3,2,3,323,8,0,At Risk Customers
+C0545,Anil Harris,anil.harris62@example.com,2025-01-07,India,54,11,4139.64,3,5,5,355,13,3,Champions
+C0546,Michael White,michael.white46@example.com,2025-01-09,United States,160,3,104.69,2,2,2,222,6,0,At Risk Customers
+C0547,Sandra Johnson,sandra.johnson23@example.com,2025-02-19,United States,143,2,145.92,2,2,2,222,6,2,Lost Customers
+C0548,James Williams,james.williams89@example.com,2025-09-27,India,124,4,827.1,2,3,4,234,9,0,At Risk Customers
+C0549,Robert Davis,robert.davis60@example.com,2025-02-10,India,15,20,6643.53,5,5,5,555,15,3,Champions
+C0550,Lisa Mishra,lisa.mishra82@example.com,2025-05-05,Singapore,186,3,252.19,1,2,3,123,6,0,At Risk Customers
+C0551,Vikram Martinez,vikram.martinez97@example.com,2025-02-11,United Kingdom,71,2,152.73000000000002,3,2,2,322,7,0,At Risk Customers
+C0552,Amit Singh,amit.singh61@example.com,2025-07-14,India,19,3,170.65,5,2,2,522,9,1,Loyalists
+C0553,Rajesh Mehta,rajesh.mehta91@example.com,2025-01-05,United Kingdom,13,3,292.7,5,2,3,523,10,1,Loyalists
+C0554,Diya Anderson,diya.anderson65@example.com,2025-11-27,Germany,59,3,219.75,3,2,3,323,8,0,At Risk Customers
+C0555,Gita Joshi,gita.joshi77@example.com,2025-01-22,India,354,2,108.69,1,2,2,122,5,2,Lost Customers
+C0556,Gita Taylor,gita.taylor44@example.com,2025-01-24,Canada,229,4,377.13,1,3,4,134,8,0,At Risk Customers
+C0557,Michael White,michael.white82@example.com,2025-12-03,India,16,3,206.95000000000002,5,2,2,522,9,1,Loyalists
+C0558,John Verma,john.verma36@example.com,2025-10-28,India,255,1,56.78,1,1,1,111,3,2,Lost Customers
+C0559,Lisa Patel,lisa.patel48@example.com,2025-03-25,United States,228,2,142.54,1,2,2,122,5,2,Lost Customers
+C0560,Gita Das,gita.das96@example.com,2025-10-04,India,293,1,41.72,1,1,1,111,3,2,Lost Customers
+C0561,Meera Singh,meera.singh74@example.com,2026-01-17,Singapore,4,8,1315.38,5,5,5,555,15,3,Champions
+C0562,Ananya Joshi,ananya.joshi65@example.com,2025-04-29,France,80,3,209.63,3,2,2,322,7,0,At Risk Customers
+C0563,Jessica Young,jessica.young88@example.com,2025-11-01,India,87,3,152.05,3,2,2,322,7,0,At Risk Customers
+C0564,John Verma,john.verma91@example.com,2025-05-20,Germany,452,1,24.34,1,1,1,111,3,2,Lost Customers
+C0565,Richard Anderson,richard.anderson39@example.com,2025-07-02,United States,30,2,98.53,4,2,2,422,8,1,Loyalists
+C0566,William Banerjee,william.banerjee33@example.com,2025-12-15,United States,97,4,258.43,2,3,3,233,8,0,At Risk Customers
+C0567,William Singh,william.singh89@example.com,2025-06-01,Germany,96,4,315.9,2,3,3,233,8,0,At Risk Customers
+C0568,Arjun Singh,arjun.singh44@example.com,2025-03-20,India,344,2,222.01999999999998,1,2,3,123,6,2,Lost Customers
+C0569,Neha Das,neha.das50@example.com,2025-07-04,India,85,3,148.96,3,2,2,322,7,0,At Risk Customers
+C0570,Aarav Martinez,aarav.martinez66@example.com,2025-07-04,Germany,36,1,68.08,4,1,1,411,6,2,Lost Customers
+C0571,Isha Nair,isha.nair21@example.com,2025-04-06,United States,58,5,378.82,3,4,4,344,11,0,At Risk Customers
+C0572,Suresh Harris,suresh.harris75@example.com,2025-07-28,India,134,2,111.42,2,2,2,222,6,2,Lost Customers
+C0573,Diya Roy,diya.roy80@example.com,2025-02-17,United States,192,3,137.74,1,2,2,122,5,0,At Risk Customers
+C0574,John Das,john.das11@example.com,2025-05-30,United States,96,5,333.9,2,4,4,244,10,0,At Risk Customers
+C0575,Diya Harris,diya.harris41@example.com,2025-10-20,United States,10,15,5222.54,5,5,5,555,15,3,Champions
+C0576,William Smith,william.smith27@example.com,2025-05-18,India,31,1,68.39,4,1,1,411,6,2,Lost Customers
+C0577,Priya Reddy,priya.reddy18@example.com,2025-03-27,United States,259,1,79.59,1,1,1,111,3,2,Lost Customers
+C0578,Thomas Martinez,thomas.martinez71@example.com,2026-02-05,India,18,8,1205.95,5,5,5,555,15,3,Champions
+C0579,Emily Garcia,emily.garcia90@example.com,2025-09-11,United States,17,5,403.45,5,4,4,544,13,1,Loyalists
+C0580,Siddharth Mishra,siddharth.mishra23@example.com,2025-03-11,India,176,4,346.43,1,3,4,134,8,0,At Risk Customers
+C0581,Lisa Sen,lisa.sen89@example.com,2025-07-14,Germany,2,8,1477.32,5,5,5,555,15,3,Champions
+C0582,Jessica Chatterjee,jessica.chatterjee52@example.com,2025-08-09,Germany,109,5,842.9200000000001,2,4,4,244,10,0,At Risk Customers
+C0583,Sanjay Nair,sanjay.nair48@example.com,2025-06-14,United States,14,3,171.16,5,2,2,522,9,1,Loyalists
+C0584,Siddharth Taylor,siddharth.taylor50@example.com,2025-04-01,Australia,325,2,152.77,1,2,2,122,5,2,Lost Customers
+C0585,John Rodriguez,john.rodriguez98@example.com,2025-11-21,United States,4,9,3256.76,5,5,5,555,15,3,Champions
+C0586,Gita Garcia,gita.garcia51@example.com,2025-07-12,India,313,4,256.16,1,3,3,133,7,0,At Risk Customers
+C0587,Lisa Bose,lisa.bose24@example.com,2025-10-16,India,8,11,3240.61,5,5,5,555,15,3,Champions
+C0588,Anil Johnson,anil.johnson97@example.com,2026-01-29,United States,22,1,48.04,4,1,1,411,6,2,Lost Customers
+C0589,Ashley Brown,ashley.brown66@example.com,2026-02-13,India,23,5,579.84,4,4,4,444,12,1,Loyalists
+C0590,Arjun Mukherjee,arjun.mukherjee96@example.com,2025-09-13,India,5,16,5546.31,5,5,5,555,15,3,Champions
+C0591,David Garcia,david.garcia42@example.com,2025-12-04,India,7,5,727.98,5,4,4,544,13,1,Loyalists
+C0592,Sandra Das,sandra.das19@example.com,2025-08-18,Singapore,22,8,1142.81,4,5,5,455,14,3,Champions
+C0593,Rajesh Thompson,rajesh.thompson61@example.com,2025-10-01,United States,23,13,4493.43,4,5,5,455,14,3,Champions
+C0594,Thomas White,thomas.white14@example.com,2026-02-09,Australia,17,3,191.52,5,2,2,522,9,1,Loyalists
+C0595,Anil Young,anil.young91@example.com,2025-02-13,India,82,3,133.32,3,2,2,322,7,0,At Risk Customers
+C0596,James Roy,james.roy31@example.com,2025-11-28,United States,37,3,171.03,4,2,2,422,8,1,Loyalists
+C0597,Gita Choudhury,gita.choudhury52@example.com,2026-02-12,United States,73,3,175.26,3,2,2,322,7,0,At Risk Customers
+C0598,Aarav Joshi,aarav.joshi43@example.com,2025-04-24,United States,407,2,144.89,1,2,2,122,5,2,Lost Customers
+C0599,Vijay Harris,vijay.harris84@example.com,2025-12-19,United States,56,18,5794.9,3,5,5,355,13,3,Champions
+C0600,Richard Bose,richard.bose60@example.com,2025-08-26,Germany,9,10,1703.35,5,5,5,555,15,3,Champions
+C0601,Deepak Thomas,deepak.thomas29@example.com,2025-06-26,Singapore,12,2,122.77,5,2,2,522,9,1,Loyalists
+C0602,Rajesh Joshi,rajesh.joshi47@example.com,2025-08-01,Canada,7,8,2413.7,5,5,5,555,15,3,Champions
+C0603,Diya Rao,diya.rao28@example.com,2025-06-28,India,2,1,70.92,5,1,1,511,7,1,Loyalists
+C0604,Ashley Brown,ashley.brown76@example.com,2025-09-05,India,98,4,208.26000000000002,2,3,2,232,7,0,At Risk Customers
+C0605,Isha Chatterjee,isha.chatterjee99@example.com,2025-08-20,India,350,1,24.32,1,1,1,111,3,2,Lost Customers
+C0606,David Gupta,david.gupta24@example.com,2025-01-12,France,380,1,52.49,1,1,1,111,3,2,Lost Customers
+C0607,Isha Smith,isha.smith41@example.com,2025-09-22,India,202,5,403.83,1,4,4,144,9,0,At Risk Customers
+C0608,Pranav Sen,pranav.sen81@example.com,2025-08-07,Australia,130,2,186.16000000000003,2,2,2,222,6,0,At Risk Customers
+C0609,Vikram Choudhury,vikram.choudhury90@example.com,2025-04-05,India,224,2,191.73000000000002,1,2,2,122,5,2,Lost Customers
+C0610,Sandra Choudhury,sandra.choudhury13@example.com,2026-01-13,United States,38,4,212.42,4,3,2,432,9,1,Loyalists
+C0611,Siddharth Chatterjee,siddharth.chatterjee85@example.com,2025-08-08,India,67,1,47.04,3,1,1,311,5,2,Lost Customers
+C0612,Tanvi Brown,tanvi.brown45@example.com,2026-01-21,United Kingdom,161,1,42.43,2,1,1,211,4,2,Lost Customers
+C0613,Arjun Martin,arjun.martin23@example.com,2026-02-14,France,76,5,394.21999999999997,3,4,4,344,11,0,At Risk Customers
+C0614,Rohan Bose,rohan.bose51@example.com,2025-04-11,United States,7,17,5507.32,5,5,5,555,15,3,Champions
+C0615,Emily Anderson,emily.anderson77@example.com,2025-11-24,India,75,4,337.56,3,3,4,334,10,0,At Risk Customers
+C0616,William King,william.king60@example.com,2025-10-28,India,10,5,379.97,5,4,4,544,13,1,Loyalists
+C0617,Robert Mishra,robert.mishra89@example.com,2025-03-30,Germany,69,5,404.95,3,4,4,344,11,0,At Risk Customers
+C0618,David King,david.king85@example.com,2025-02-13,United Kingdom,122,1,59.14,2,1,1,211,4,2,Lost Customers
+C0619,John Rao,john.rao40@example.com,2025-06-06,India,53,14,4492.7,3,5,5,355,13,3,Champions
+C0620,Karen Reddy,karen.reddy75@example.com,2025-07-18,United States,19,10,1499.66,5,5,5,555,15,3,Champions
+C0621,Meera Martin,meera.martin59@example.com,2025-08-05,India,7,3,149.20999999999998,5,3,2,532,10,1,Loyalists
+C0622,Anil Johnson,anil.johnson81@example.com,2025-03-27,United States,68,8,1020.99,3,5,5,355,13,3,Champions
+C0623,Meera Johnson,meera.johnson50@example.com,2025-08-19,United States,29,6,989.7,4,4,5,445,13,3,Champions
+C0624,Robert Sharma,robert.sharma72@example.com,2025-03-11,India,30,4,235.32000000000002,4,3,3,433,10,1,Loyalists
+C0625,William Harris,william.harris74@example.com,2025-12-01,United States,3,8,1198.71,5,5,5,555,15,3,Champions
+C0626,Priya Mukherjee,priya.mukherjee66@example.com,2025-09-08,India,157,3,241.3,2,3,3,233,8,0,At Risk Customers
+C0627,Gita Verma,gita.verma38@example.com,2025-05-30,India,57,4,301.96,3,3,3,333,9,0,At Risk Customers
+C0628,Vikram White,vikram.white46@example.com,2025-03-28,Germany,155,1,55.97,2,1,1,211,4,2,Lost Customers
+C0629,Gita Anderson,gita.anderson80@example.com,2025-09-19,India,22,4,260.29,4,3,3,433,10,1,Loyalists
+C0630,Kabir Davis,kabir.davis79@example.com,2025-07-07,United States,163,2,158.56,2,2,2,222,6,2,Lost Customers
+C0631,Amit Chatterjee,amit.chatterjee79@example.com,2025-04-22,Singapore,83,2,187.51,3,2,2,322,7,0,At Risk Customers
+C0632,Isha Garcia,isha.garcia48@example.com,2025-01-17,United States,35,5,339.48,4,4,4,444,12,1,Loyalists
+C0633,Robert Singh,robert.singh66@example.com,2025-03-02,Germany,159,3,261.71000000000004,2,3,3,233,8,0,At Risk Customers
+C0634,James Brown,james.brown85@example.com,2025-12-19,India,28,5,329.31,4,4,4,444,12,1,Loyalists
+C0635,Kiran Banerjee,kiran.banerjee31@example.com,2025-11-12,India,51,2,150.29000000000002,3,2,2,322,7,0,At Risk Customers
+C0636,Tanvi Brown,tanvi.brown17@example.com,2025-10-19,India,207,2,216.53,1,2,3,123,6,0,At Risk Customers
+C0637,Michael Young,michael.young78@example.com,2025-03-28,India,1,9,1415.2,5,5,5,555,15,3,Champions
+C0638,Sarah Rodriguez,sarah.rodriguez83@example.com,2025-05-17,Australia,108,4,161.69,2,3,2,232,7,0,At Risk Customers
+C0639,Sunita Joshi,sunita.joshi27@example.com,2026-01-20,Germany,24,5,345.7,4,4,4,444,12,1,Loyalists
+C0640,Ananya Davis,ananya.davis93@example.com,2025-03-06,United Kingdom,6,5,361.90999999999997,5,4,4,544,13,1,Loyalists
+C0641,Meera Garcia,meera.garcia28@example.com,2025-12-31,India,20,3,182.91000000000003,4,3,2,432,9,1,Loyalists
+C0642,James Choudhury,james.choudhury72@example.com,2025-03-14,United States,307,5,257.43,1,4,3,143,8,0,At Risk Customers
+C0643,Michael Mukherjee,michael.mukherjee58@example.com,2025-08-20,India,19,5,307.28,5,4,3,543,12,1,Loyalists
+C0644,Diya Choudhury,diya.choudhury75@example.com,2026-01-19,India,72,1,30.26,3,1,1,311,5,2,Lost Customers
+C0645,Karen Mishra,karen.mishra72@example.com,2025-06-17,United States,128,1,45.72,2,1,1,211,4,2,Lost Customers
+C0646,Diya Mishra,diya.mishra91@example.com,2025-12-07,United Kingdom,41,4,346.33,4,3,4,434,11,0,At Risk Customers
+C0647,Arjun White,arjun.white60@example.com,2025-04-22,Australia,17,1,22.77,5,1,1,511,7,2,Lost Customers
+C0648,Tanvi Anderson,tanvi.anderson44@example.com,2025-06-15,Germany,263,1,76.67,1,1,1,111,3,2,Lost Customers
+C0649,Jessica Harris,jessica.harris83@example.com,2025-03-08,United States,131,2,84.16,2,2,1,221,5,2,Lost Customers
+C0650,Priya Sen,priya.sen97@example.com,2026-01-26,India,26,5,380.75,4,4,4,444,12,1,Loyalists
+C0651,Isha Mishra,isha.mishra12@example.com,2025-03-05,Canada,93,1,39.38,2,1,1,211,4,2,Lost Customers
+C0652,Pranav Chatterjee,pranav.chatterjee68@example.com,2025-01-01,Singapore,182,3,182.16,1,3,2,132,6,0,At Risk Customers
+C0653,Sandra Williams,sandra.williams98@example.com,2025-03-09,Canada,64,8,1317.4,3,5,5,355,13,3,Champions
+C0654,David Smith,david.smith45@example.com,2025-02-17,United Kingdom,82,4,218.62,3,3,3,333,9,0,At Risk Customers
+C0655,Emily Singh,emily.singh57@example.com,2025-12-07,Canada,50,2,148.09,3,2,2,322,7,0,At Risk Customers
+C0656,Pranav Mehta,pranav.mehta60@example.com,2025-11-17,India,46,2,71.98,3,2,1,321,6,2,Lost Customers
+C0657,Vikram Banerjee,vikram.banerjee93@example.com,2025-02-16,United Kingdom,33,4,273.42,4,3,3,433,10,1,Loyalists
+C0658,Aarav Brown,aarav.brown71@example.com,2025-02-09,India,42,5,340.04,4,4,4,444,12,0,At Risk Customers
+C0659,Vikram Jackson,vikram.jackson97@example.com,2025-08-16,India,92,3,320.67,2,3,4,234,9,0,At Risk Customers
+C0660,Jessica Rao,jessica.rao64@example.com,2025-12-22,India,226,1,65.04,1,1,1,111,3,2,Lost Customers
+C0661,Arjun Jones,arjun.jones59@example.com,2025-02-15,United Kingdom,24,20,6619.9800000000005,4,5,5,455,14,3,Champions
+C0662,Isha Joshi,isha.joshi50@example.com,2025-07-08,Canada,86,12,4680.01,3,5,5,355,13,3,Champions
+C0663,Meera Das,meera.das27@example.com,2025-11-25,Singapore,41,9,1611.71,4,5,5,455,14,3,Champions
+C0664,Neha Patel,neha.patel77@example.com,2025-10-16,India,6,8,2206.1,5,5,5,555,15,3,Champions
+C0665,Pranav Chatterjee,pranav.chatterjee54@example.com,2026-01-05,India,30,9,1398.18,4,5,5,455,14,3,Champions
+C0666,Neha Mukherjee,neha.mukherjee88@example.com,2025-12-18,United States,208,1,13.2,1,1,1,111,3,2,Lost Customers
+C0667,Tanvi Singh,tanvi.singh22@example.com,2025-03-13,Germany,108,8,2812.99,2,5,5,255,12,3,Champions
+C0668,Deepak Das,deepak.das54@example.com,2025-08-08,India,372,1,15.1,1,1,1,111,3,2,Lost Customers
+C0669,Meera Garcia,meera.garcia45@example.com,2025-11-27,India,136,6,825.94,2,4,4,244,10,0,At Risk Customers
+C0670,Suresh Young,suresh.young86@example.com,2026-01-05,United States,3,5,280.83,5,4,3,543,12,1,Loyalists
+C0671,Aditya Martinez,aditya.martinez36@example.com,2025-09-23,United States,172,3,135.76,1,3,2,132,6,0,At Risk Customers
+C0672,Siddharth Choudhury,siddharth.choudhury47@example.com,2025-11-27,India,32,1,35.9,4,1,1,411,6,2,Lost Customers
+C0673,James Anderson,james.anderson59@example.com,2025-02-27,India,66,1,78.83,3,1,1,311,5,2,Lost Customers
+C0674,Sanjay Patel,sanjay.patel77@example.com,2025-01-07,Singapore,589,1,73.51,1,1,1,111,3,2,Lost Customers
+C0675,John Nair,john.nair59@example.com,2025-10-19,United States,38,4,209.74,4,3,2,432,9,1,Loyalists
+C0676,Anil Johnson,anil.johnson70@example.com,2026-01-30,India,57,4,263.12,3,3,3,333,9,0,At Risk Customers
+C0677,Deepak Patel,deepak.patel11@example.com,2025-05-15,India,78,2,194.83999999999997,3,2,2,322,7,0,At Risk Customers
+C0678,Ananya Choudhury,ananya.choudhury74@example.com,2025-05-27,United States,64,15,4844.57,3,5,5,355,13,3,Champions
+C0679,Sunita Mukherjee,sunita.mukherjee64@example.com,2025-12-26,United States,54,3,192.84,3,3,2,332,8,0,At Risk Customers
+C0680,Anil White,anil.white88@example.com,2025-03-20,India,154,7,1144.73,2,5,5,255,12,0,At Risk Customers
+C0681,David Singh,david.singh75@example.com,2025-04-15,Singapore,52,4,602.36,3,3,4,334,10,0,At Risk Customers
+C0682,Neha White,neha.white51@example.com,2025-07-20,United States,336,1,39.39,1,1,1,111,3,2,Lost Customers
+C0683,Arjun Martinez,arjun.martinez99@example.com,2025-08-12,United Kingdom,160,6,921.6,2,4,4,244,10,0,At Risk Customers
+C0684,James Mehta,james.mehta41@example.com,2025-02-14,Canada,108,7,1284.93,2,5,5,255,12,0,At Risk Customers
+C0685,Kabir Mishra,kabir.mishra88@example.com,2025-11-08,India,234,3,255.29,1,3,3,133,7,0,At Risk Customers
+C0686,Rohan Rao,rohan.rao11@example.com,2025-12-29,India,49,3,193.26,3,3,2,332,8,0,At Risk Customers
+C0687,Aarav Smith,aarav.smith73@example.com,2025-06-27,United States,78,4,290.13,3,3,3,333,9,0,At Risk Customers
+C0688,Emily Smith,emily.smith57@example.com,2025-03-06,United Kingdom,18,9,1736.03,5,5,5,555,15,3,Champions
+C0689,Michael Rao,michael.rao13@example.com,2025-06-21,Germany,8,13,4570.55,5,5,5,555,15,3,Champions
+C0690,Michael Jackson,michael.jackson18@example.com,2025-05-15,United Kingdom,191,2,175.62,1,2,2,122,5,2,Lost Customers
+C0691,Gita Patel,gita.patel73@example.com,2025-08-22,United States,78,2,104.93,3,2,2,322,7,2,Lost Customers
+C0692,Ananya Anderson,ananya.anderson82@example.com,2025-03-27,India,133,4,333.83,2,3,4,234,9,0,At Risk Customers
+C0693,Emily Joshi,emily.joshi83@example.com,2025-12-12,United Kingdom,74,1,47.03,3,1,1,311,5,2,Lost Customers
+C0694,Vikram Thomas,vikram.thomas10@example.com,2025-01-23,France,134,3,237.32,2,3,3,233,8,0,At Risk Customers
+C0695,Aarav Garcia,aarav.garcia15@example.com,2025-08-30,India,25,1,67.92,4,1,1,411,6,2,Lost Customers
+C0696,Neha Johnson,neha.johnson14@example.com,2025-10-11,Germany,39,15,5455.67,4,5,5,455,14,3,Champions
+C0697,Thomas Jones,thomas.jones51@example.com,2025-05-08,United States,45,3,191.09,3,3,2,332,8,0,At Risk Customers
+C0698,John Davis,john.davis19@example.com,2025-10-20,India,15,16,4483.75,5,5,5,555,15,3,Champions
+C0699,Sunita Mehta,sunita.mehta32@example.com,2025-04-25,Germany,374,1,36.01,1,1,1,111,3,2,Lost Customers
+C0700,Amit Choudhury,amit.choudhury18@example.com,2025-08-27,France,33,3,185.39000000000001,4,3,2,432,9,1,Loyalists
+C0701,David Kumar,david.kumar21@example.com,2025-10-11,United States,27,3,218.39000000000001,4,3,3,433,10,1,Loyalists
+C0702,Karen Williams,karen.williams47@example.com,2025-10-16,Germany,219,1,38.09,1,1,1,111,3,2,Lost Customers
+C0703,Kiran Garcia,kiran.garcia69@example.com,2025-07-08,United States,34,4,238.44,4,3,3,433,10,1,Loyalists
+C0704,Priya Williams,priya.williams79@example.com,2026-01-25,Germany,113,1,16.05,2,1,1,211,4,2,Lost Customers
+C0705,Neha Sharma,neha.sharma62@example.com,2025-01-13,India,218,4,320.03,1,3,4,134,8,0,At Risk Customers
+C0706,Robert Sharma,robert.sharma52@example.com,2025-01-01,Germany,456,1,11.27,1,1,1,111,3,2,Lost Customers
+C0707,William Martinez,william.martinez23@example.com,2025-04-16,United States,150,5,794.95,2,4,4,244,10,0,At Risk Customers
+C0708,James Mukherjee,james.mukherjee72@example.com,2025-01-31,Singapore,23,5,243.26000000000002,4,4,3,443,11,1,Loyalists
+C0709,Neha Davis,neha.davis21@example.com,2025-01-23,Canada,50,5,267.43,3,4,3,343,10,0,At Risk Customers
+C0710,Vijay Mukherjee,vijay.mukherjee99@example.com,2025-07-10,United States,106,1,14.85,2,1,1,211,4,2,Lost Customers
+C0711,Diya Thompson,diya.thompson22@example.com,2025-09-16,India,145,1,29.06,2,1,1,211,4,2,Lost Customers
+C0712,Lisa Patel,lisa.patel85@example.com,2025-10-18,India,91,5,445.01,2,4,4,244,10,0,At Risk Customers
+C0713,Meera Garcia,meera.garcia47@example.com,2025-05-14,France,255,3,199.17,1,3,2,132,6,0,At Risk Customers
+C0714,Lisa Kumar,lisa.kumar50@example.com,2025-08-20,India,9,15,5013.15,5,5,5,555,15,3,Champions
+C0715,Arjun Williams,arjun.williams27@example.com,2026-02-04,Germany,125,5,288.5,2,4,3,243,9,0,At Risk Customers
+C0716,Isha Reddy,isha.reddy23@example.com,2025-03-26,United States,22,3,200.92000000000002,4,3,2,432,9,1,Loyalists
+C0717,John Mukherjee,john.mukherjee25@example.com,2025-10-02,India,111,4,245.39999999999998,2,3,3,233,8,0,At Risk Customers
+C0718,Tanvi Chatterjee,tanvi.chatterjee49@example.com,2025-08-26,India,69,3,109.44999999999999,3,3,2,332,8,0,At Risk Customers
+C0719,Kabir Singh,kabir.singh30@example.com,2026-02-18,United Kingdom,63,5,461.89,3,4,4,344,11,0,At Risk Customers
+C0720,Sanjay Gupta,sanjay.gupta37@example.com,2025-06-17,India,221,4,405.67,1,3,4,134,8,0,At Risk Customers
+C0721,James Roy,james.roy60@example.com,2025-09-20,India,126,4,300.48,2,3,3,233,8,0,At Risk Customers
+C0722,David Miller,david.miller32@example.com,2025-01-16,Australia,294,1,36.7,1,1,1,111,3,2,Lost Customers
+C0723,Richard Harris,richard.harris80@example.com,2025-05-08,India,16,1,66.33,5,1,1,511,7,1,Loyalists
+C0724,Isha Nair,isha.nair25@example.com,2025-01-07,India,18,5,449.79,5,4,4,544,13,1,Loyalists
+C0725,Vikram Nair,vikram.nair35@example.com,2025-07-25,India,6,4,270.03999999999996,5,3,3,533,11,1,Loyalists
+C0726,Diya Thompson,diya.thompson85@example.com,2025-05-13,Canada,59,14,4017.35,3,5,5,355,13,3,Champions
+C0727,Arjun Verma,arjun.verma18@example.com,2025-04-12,Canada,79,3,219.14000000000001,3,3,3,333,9,0,At Risk Customers
+C0728,Richard Nair,richard.nair21@example.com,2026-02-19,India,61,2,145.61,3,2,2,322,7,0,At Risk Customers
+C0729,Amit Mishra,amit.mishra16@example.com,2025-03-28,Canada,31,8,1336.57,4,5,5,455,14,3,Champions
+C0730,Sandra Choudhury,sandra.choudhury73@example.com,2025-01-16,India,391,2,61.89,1,2,1,121,4,2,Lost Customers
+C0731,Sandra Johnson,sandra.johnson55@example.com,2025-04-20,Canada,17,2,183.95999999999998,5,2,2,522,9,1,Loyalists
+C0732,Michael Davis,michael.davis67@example.com,2025-03-18,India,55,2,205.3,3,2,2,322,7,0,At Risk Customers
+C0733,Kiran King,kiran.king41@example.com,2025-11-28,India,13,4,300.53,5,3,3,533,11,1,Loyalists
+C0734,Thomas Harris,thomas.harris71@example.com,2025-02-01,India,100,8,1081.1200000000001,2,5,5,255,12,3,Champions
+C0735,William Nair,william.nair63@example.com,2025-04-13,United States,144,3,199.91,2,3,2,232,7,0,At Risk Customers
+C0736,Vijay Garcia,vijay.garcia90@example.com,2026-02-15,United States,33,3,222.06,4,3,3,433,10,1,Loyalists
+C0737,Aditya Das,aditya.das55@example.com,2025-09-03,United States,270,3,320.73,1,3,4,134,8,0,At Risk Customers
+C0738,Priya Roy,priya.roy82@example.com,2025-09-15,India,46,4,261.8,3,3,3,333,9,0,At Risk Customers
+C0739,Michael Johnson,michael.johnson13@example.com,2025-06-13,United States,91,5,314.31,2,4,3,243,9,0,At Risk Customers
+C0740,Aditya Davis,aditya.davis17@example.com,2026-02-19,Singapore,36,9,1050.06,4,5,5,455,14,3,Champions
+C0741,Vijay Roy,vijay.roy84@example.com,2025-04-30,Singapore,52,4,186.72,3,3,2,332,8,0,At Risk Customers
+C0742,Isha Garcia,isha.garcia94@example.com,2025-05-04,India,77,5,315.48,3,4,3,343,10,0,At Risk Customers
+C0743,Ananya Jones,ananya.jones83@example.com,2026-02-13,India,133,2,148.01,2,2,2,222,6,2,Lost Customers
+C0744,Rohan Johnson,rohan.johnson40@example.com,2025-10-31,India,32,1,74.19,4,1,1,411,6,2,Lost Customers
+C0745,Robert Thompson,robert.thompson13@example.com,2025-12-27,United Kingdom,25,2,163.15,4,2,2,422,8,1,Loyalists
+C0746,Gita Martin,gita.martin28@example.com,2025-10-16,Australia,32,8,990.01,4,5,5,455,14,3,Champions
+C0747,Priya White,priya.white49@example.com,2025-03-31,United States,29,4,708.71,4,3,4,434,11,1,Loyalists
+C0748,Diya Mehta,diya.mehta39@example.com,2025-11-05,India,4,5,425.61,5,4,4,544,13,1,Loyalists
+C0749,Vijay Taylor,vijay.taylor10@example.com,2025-06-19,Canada,145,5,364.14,2,4,4,244,10,0,At Risk Customers
+C0750,Siddharth Nair,siddharth.nair53@example.com,2026-01-03,India,106,3,253.83999999999997,2,3,3,233,8,0,At Risk Customers
+C0751,John Mehta,john.mehta12@example.com,2025-03-17,United States,12,7,1200.7,5,5,5,555,15,3,Champions
+C0752,Neha Rao,neha.rao77@example.com,2025-07-06,Australia,51,3,209.94,3,3,2,332,8,0,At Risk Customers
+C0753,Karen Choudhury,karen.choudhury85@example.com,2025-02-21,India,59,5,330.9,3,4,4,344,11,0,At Risk Customers
+C0754,John Nair,john.nair30@example.com,2026-01-10,Australia,17,8,1189.42,5,5,5,555,15,3,Champions
+C0755,Priya Kumar,priya.kumar32@example.com,2025-12-29,Australia,137,2,98.3,2,2,2,222,6,2,Lost Customers
+C0756,Kiran Roy,kiran.roy38@example.com,2025-12-07,United States,55,3,327.27,3,3,4,334,10,0,At Risk Customers
+C0757,Rohan Das,rohan.das49@example.com,2026-01-11,United Kingdom,80,4,267.41,3,3,3,333,9,0,At Risk Customers
+C0758,Meera Johnson,meera.johnson10@example.com,2025-12-26,Australia,1,10,1796.69,5,5,5,555,15,3,Champions
+C0759,Lisa Martin,lisa.martin14@example.com,2025-04-04,United States,92,4,266.98,2,3,3,233,8,0,At Risk Customers
+C0760,Kiran Jones,kiran.jones91@example.com,2025-10-17,India,89,1,36.07,3,1,1,311,5,2,Lost Customers
+C0761,Priya Reddy,priya.reddy52@example.com,2026-01-17,India,140,1,31.21,2,1,1,211,4,2,Lost Customers
+C0762,Robert Kumar,robert.kumar31@example.com,2025-11-22,Canada,66,2,170.24,3,2,2,322,7,0,At Risk Customers
+C0763,Diya Sen,diya.sen67@example.com,2025-01-06,India,205,2,115.31,1,2,2,122,5,2,Lost Customers
+C0764,James Patel,james.patel54@example.com,2025-05-12,Germany,304,1,75.27,1,1,1,111,3,2,Lost Customers
+C0765,Aarav Mehta,aarav.mehta59@example.com,2025-08-13,United Kingdom,173,10,1283.45,1,5,5,155,11,3,Champions
+C0766,Pranav Mukherjee,pranav.mukherjee73@example.com,2025-07-13,India,36,2,132.23,4,2,2,422,8,1,Loyalists
+C0767,William Joshi,william.joshi71@example.com,2026-02-08,France,36,7,946.03,4,5,4,454,13,3,Champions
+C0768,Vikram Smith,vikram.smith67@example.com,2025-02-07,Germany,295,2,161.29,1,2,2,122,5,2,Lost Customers
+C0769,Amit Rodriguez,amit.rodriguez12@example.com,2025-06-13,India,29,10,3257.53,4,5,5,455,14,3,Champions
+C0770,Isha Patel,isha.patel53@example.com,2025-03-29,Canada,171,5,341.03000000000003,1,4,4,144,9,0,At Risk Customers
+C0771,Pranav Patel,pranav.patel80@example.com,2025-02-17,India,59,8,1258.6,3,5,5,355,13,3,Champions
+C0772,Kiran Taylor,kiran.taylor13@example.com,2025-08-09,Australia,16,4,223.60999999999999,5,3,3,533,11,1,Loyalists
+C0773,Pranav Young,pranav.young65@example.com,2025-03-22,India,48,6,1067.1,3,4,5,345,12,3,Champions
+C0774,Jessica Brown,jessica.brown34@example.com,2025-07-29,United Kingdom,317,1,30.95,1,1,1,111,3,2,Lost Customers
+C0775,Anil Miller,anil.miller94@example.com,2025-05-25,India,5,8,1308.6399999999999,5,5,5,555,15,3,Champions
+C0776,Isha Mehta,isha.mehta60@example.com,2025-10-20,United States,11,5,347.63,5,4,4,544,13,1,Loyalists
+C0777,Priya Reddy,priya.reddy16@example.com,2025-07-04,India,299,1,67.62,1,1,1,111,3,2,Lost Customers
+C0778,Diya Rodriguez,diya.rodriguez94@example.com,2025-11-17,United States,18,4,261.68,5,3,3,533,11,1,Loyalists
+C0779,Siddharth Joshi,siddharth.joshi13@example.com,2025-04-16,India,198,2,163.34,1,2,2,122,5,2,Lost Customers
+C0780,Sarah Singh,sarah.singh70@example.com,2025-03-01,India,180,4,252.8,1,3,3,133,7,0,At Risk Customers
+C0781,Lisa Taylor,lisa.taylor72@example.com,2025-12-05,India,4,5,295.76,5,4,3,543,12,1,Loyalists
+C0782,Anil Das,anil.das33@example.com,2025-07-09,Canada,3,10,1959.04,5,5,5,555,15,3,Champions
+C0783,Karen Johnson,karen.johnson67@example.com,2025-01-23,India,152,2,128.37,2,2,2,222,6,2,Lost Customers
+C0784,Ashley Miller,ashley.miller38@example.com,2025-05-18,United States,13,5,317.49,5,4,3,543,12,1,Loyalists
+C0785,Neha Joshi,neha.joshi20@example.com,2025-12-09,India,35,3,220.51999999999998,4,3,3,433,10,1,Loyalists
+C0786,Anil Mukherjee,anil.mukherjee85@example.com,2025-04-27,United States,177,3,158.89,1,3,2,132,6,0,At Risk Customers
+C0787,William Jackson,william.jackson63@example.com,2025-10-02,United Kingdom,31,1,22.16,4,1,1,411,6,2,Lost Customers
+C0788,Rajesh Martin,rajesh.martin40@example.com,2025-09-01,India,39,4,208.19,4,3,2,432,9,0,At Risk Customers
+C0789,Lisa Gupta,lisa.gupta74@example.com,2025-10-20,Canada,87,2,204.51,3,2,2,322,7,0,At Risk Customers
+C0790,Gita King,gita.king28@example.com,2025-03-03,Australia,328,2,121.24000000000001,1,2,2,122,5,2,Lost Customers
+C0791,Richard Johnson,richard.johnson31@example.com,2025-04-19,Germany,155,1,62.32,2,1,1,211,4,2,Lost Customers
+C0792,Meera Gupta,meera.gupta64@example.com,2025-02-10,Singapore,299,3,204.10999999999999,1,3,2,132,6,0,At Risk Customers
+C0793,Sandra Williams,sandra.williams90@example.com,2025-03-17,France,92,10,1642.06,2,5,5,255,12,3,Champions
+C0794,Emily Kumar,emily.kumar18@example.com,2025-02-14,India,45,12,3649.97,3,5,5,355,13,3,Champions
+C0795,Lisa Harris,lisa.harris51@example.com,2025-05-22,United States,146,4,399.81,2,3,4,234,9,0,At Risk Customers
+C0796,Aarav King,aarav.king85@example.com,2025-09-25,Germany,93,2,127.05000000000001,2,2,2,222,6,2,Lost Customers
+C0797,Kabir Mukherjee,kabir.mukherjee29@example.com,2025-03-17,United States,38,4,674.8199999999999,4,3,4,434,11,0,At Risk Customers
+C0798,Deepak Joshi,deepak.joshi23@example.com,2025-10-16,Germany,17,2,102.2,5,2,2,522,9,1,Loyalists
+C0799,Sarah White,sarah.white54@example.com,2025-07-30,India,312,1,67.75,1,1,1,111,3,2,Lost Customers
+C0800,Priya Martin,priya.martin87@example.com,2025-08-31,India,14,20,6789.59,5,5,5,555,15,3,Champions
+C0801,Michael Choudhury,michael.choudhury28@example.com,2025-11-13,United States,214,2,105.77,1,2,2,122,5,2,Lost Customers
+C0802,Lisa Gupta,lisa.gupta60@example.com,2025-06-19,United Kingdom,34,5,398.36,4,4,4,444,12,1,Loyalists
+C0803,Ananya Taylor,ananya.taylor44@example.com,2025-07-10,India,292,1,50.19,1,1,1,111,3,2,Lost Customers
+C0804,David Martinez,david.martinez45@example.com,2025-09-09,France,124,4,293.16,2,3,3,233,8,0,At Risk Customers
+C0805,Isha Jones,isha.jones27@example.com,2025-06-03,Singapore,140,4,615.3,2,3,4,234,9,0,At Risk Customers
+C0806,Richard Kumar,richard.kumar44@example.com,2026-01-09,United States,4,4,710.8199999999999,5,3,4,534,12,1,Loyalists
+C0807,Diya Williams,diya.williams66@example.com,2025-04-19,Canada,110,1,60.15,2,1,1,211,4,2,Lost Customers
+C0808,Thomas Anderson,thomas.anderson76@example.com,2025-07-11,Germany,104,4,233.43,2,3,3,233,8,0,At Risk Customers
+C0809,Sunita Smith,sunita.smith18@example.com,2025-06-09,United Kingdom,388,1,60.61,1,1,1,111,3,2,Lost Customers
+C0810,Lisa Nair,lisa.nair77@example.com,2025-10-19,India,21,2,156.92000000000002,4,2,2,422,8,1,Loyalists
+C0811,Siddharth Williams,siddharth.williams17@example.com,2025-05-08,India,81,3,137.44,3,3,2,332,8,0,At Risk Customers
+C0812,Ananya Bose,ananya.bose35@example.com,2025-05-21,India,314,1,38.9,1,1,1,111,3,2,Lost Customers
+C0813,Ashley Thomas,ashley.thomas60@example.com,2025-11-22,Canada,50,5,319.4,3,4,3,343,10,0,At Risk Customers
+C0814,Aditya Garcia,aditya.garcia57@example.com,2025-09-08,United States,75,4,283.8,3,3,3,333,9,0,At Risk Customers
+C0815,Rohan Taylor,rohan.taylor85@example.com,2025-10-10,India,6,10,2889.94,5,5,5,555,15,3,Champions
+C0816,Pranav Miller,pranav.miller98@example.com,2025-02-16,India,111,5,759.33,2,4,4,244,10,0,At Risk Customers
+C0817,William Mehta,william.mehta30@example.com,2025-10-20,Germany,192,1,69.65,1,1,1,111,3,2,Lost Customers
+C0818,Tanvi Jones,tanvi.jones92@example.com,2025-04-26,United Kingdom,294,2,152.12,1,2,2,122,5,2,Lost Customers
+C0819,Michael Mukherjee,michael.mukherjee75@example.com,2025-01-11,France,15,4,389.07,5,3,4,534,12,1,Loyalists
+C0820,Aarav Taylor,aarav.taylor26@example.com,2025-11-28,India,13,18,7070.2,5,5,5,555,15,3,Champions
+C0821,Aarav Jones,aarav.jones42@example.com,2025-11-08,Germany,158,1,10.18,2,1,1,211,4,2,Lost Customers
+C0822,David Davis,david.davis64@example.com,2025-07-12,France,147,3,267.02,2,3,3,233,8,0,At Risk Customers
+C0823,Ashley Miller,ashley.miller37@example.com,2025-08-27,India,22,5,388.84000000000003,4,4,4,444,12,1,Loyalists
+C0824,Vijay King,vijay.king60@example.com,2025-10-27,India,39,5,374.31,4,4,4,444,12,0,At Risk Customers
+C0825,Sunita Bose,sunita.bose81@example.com,2025-11-28,United States,27,8,2733.19,4,5,5,455,14,3,Champions
+C0826,Sarah Martinez,sarah.martinez97@example.com,2025-02-25,United States,87,4,260.72,3,3,3,333,9,0,At Risk Customers
+C0827,Jessica Davis,jessica.davis91@example.com,2025-06-16,France,3,5,272.01,5,4,3,543,12,1,Loyalists
+C0828,Emily Martinez,emily.martinez34@example.com,2025-03-18,United States,160,5,348.8,2,4,4,244,10,0,At Risk Customers
+C0829,James Mehta,james.mehta86@example.com,2025-07-26,United Kingdom,57,1,27.98,3,1,1,311,5,2,Lost Customers
+C0830,Meera Verma,meera.verma93@example.com,2025-09-12,Singapore,233,1,71.34,1,1,1,111,3,2,Lost Customers
+C0831,Emily Mukherjee,emily.mukherjee61@example.com,2025-07-18,United Kingdom,66,10,1585.45,3,5,5,355,13,3,Champions
+C0832,Deepak Martin,deepak.martin34@example.com,2025-06-25,United Kingdom,7,10,3413.35,5,5,5,555,15,3,Champions
+C0833,Vikram White,vikram.white91@example.com,2026-02-06,United States,1,4,447.09000000000003,5,3,4,534,12,1,Loyalists
+C0834,Robert Thomas,robert.thomas48@example.com,2025-03-29,France,115,4,321.36,2,3,4,234,9,0,At Risk Customers
+C0835,Suresh Johnson,suresh.johnson47@example.com,2025-02-19,United States,177,1,28.17,1,1,1,111,3,2,Lost Customers
+C0836,Emily Harris,emily.harris33@example.com,2025-12-15,Canada,53,1,57.0,3,1,1,311,5,2,Lost Customers
+C0837,Diya Jones,diya.jones55@example.com,2025-04-25,United Kingdom,107,1,36.83,2,1,1,211,4,2,Lost Customers
+C0838,David Mukherjee,david.mukherjee52@example.com,2025-07-10,India,184,1,63.09,1,1,1,111,3,2,Lost Customers
+C0839,Sarah Mishra,sarah.mishra25@example.com,2025-08-29,India,28,7,1044.73,4,5,5,455,14,3,Champions
+C0840,Deepak Thompson,deepak.thompson89@example.com,2025-02-06,United States,148,4,326.47,2,3,4,234,9,0,At Risk Customers
+C0841,Siddharth Thomas,siddharth.thomas25@example.com,2025-12-15,India,68,4,237.87,3,3,3,333,9,0,At Risk Customers
+C0842,David Mukherjee,david.mukherjee16@example.com,2025-03-19,India,33,8,1164.94,4,5,5,455,14,3,Champions
+C0843,Siddharth Sen,siddharth.sen62@example.com,2025-10-19,Canada,68,4,278.71000000000004,3,3,3,333,9,0,At Risk Customers
+C0844,Ashley Reddy,ashley.reddy50@example.com,2026-01-02,India,169,2,170.81,1,2,2,122,5,2,Lost Customers
+C0845,Diya Anderson,diya.anderson52@example.com,2025-11-20,Singapore,40,3,226.56,4,3,3,433,10,1,Loyalists
+C0846,John Mehta,john.mehta10@example.com,2025-08-20,India,147,1,52.47,2,1,1,211,4,2,Lost Customers
+C0847,Pranav Martin,pranav.martin30@example.com,2025-09-08,Germany,64,3,215.54,3,3,3,333,9,0,At Risk Customers
+C0848,Diya Nair,diya.nair88@example.com,2025-08-11,United States,282,4,278.99,1,3,3,133,7,0,At Risk Customers
+C0849,Lisa Banerjee,lisa.banerjee71@example.com,2025-07-16,India,2,5,197.95,5,4,2,542,11,1,Loyalists
+C0850,Anil Williams,anil.williams57@example.com,2025-01-08,Canada,120,2,116.68,2,2,2,222,6,2,Lost Customers
+C0851,Vijay Williams,vijay.williams12@example.com,2025-12-13,India,16,3,205.07999999999998,5,3,2,532,10,1,Loyalists
+C0852,James Jones,james.jones98@example.com,2025-06-26,India,41,2,167.87,4,2,2,422,8,1,Loyalists
+C0853,Isha Das,isha.das74@example.com,2025-10-29,India,2,3,102.53,5,3,2,532,10,1,Loyalists
+C0854,Arjun Gupta,arjun.gupta48@example.com,2025-05-29,United States,23,9,1323.67,4,5,5,455,14,3,Champions
+C0855,Vijay Young,vijay.young77@example.com,2025-06-22,United States,84,2,170.99,3,2,2,322,7,0,At Risk Customers
+C0856,Meera Sen,meera.sen72@example.com,2025-07-03,Germany,223,2,179.63,1,2,2,122,5,2,Lost Customers
+C0857,Pranav Choudhury,pranav.choudhury12@example.com,2025-04-27,India,181,2,87.25,1,2,1,121,4,2,Lost Customers
+C0858,Meera Brown,meera.brown12@example.com,2025-10-29,United States,88,5,734.4100000000001,3,4,4,344,11,0,At Risk Customers
+C0859,Kabir Bose,kabir.bose93@example.com,2026-02-10,India,32,5,700.28,4,4,4,444,12,1,Loyalists
+C0860,Emily White,emily.white89@example.com,2025-01-25,United States,64,4,299.48,3,3,3,333,9,0,At Risk Customers
+C0861,Ananya Joshi,ananya.joshi93@example.com,2025-01-11,India,206,1,29.45,1,1,1,111,3,2,Lost Customers
+C0862,Kabir Mukherjee,kabir.mukherjee66@example.com,2025-07-14,India,309,1,51.67,1,1,1,111,3,2,Lost Customers
+C0863,Emily Taylor,emily.taylor99@example.com,2025-03-20,India,60,3,181.89999999999998,3,3,2,332,8,0,At Risk Customers
+C0864,Aarav Martinez,aarav.martinez63@example.com,2025-12-05,India,42,1,69.85,4,1,1,411,6,2,Lost Customers
+C0865,Vijay Davis,vijay.davis89@example.com,2025-11-07,United Kingdom,26,3,224.74,4,3,3,433,10,1,Loyalists
+C0866,Thomas Joshi,thomas.joshi75@example.com,2026-01-04,United States,60,3,292.15999999999997,3,3,3,333,9,0,At Risk Customers
+C0867,Sarah Rao,sarah.rao23@example.com,2025-09-12,India,15,3,177.95000000000002,5,3,2,532,10,1,Loyalists
+C0868,Siddharth Miller,siddharth.miller76@example.com,2025-04-14,India,229,4,778.5,1,3,4,134,8,0,At Risk Customers
+C0869,Thomas Rodriguez,thomas.rodriguez30@example.com,2025-01-21,United States,5,12,3870.18,5,5,5,555,15,3,Champions
+C0870,Tanvi Taylor,tanvi.taylor52@example.com,2025-05-01,India,35,3,233.84,4,3,3,433,10,1,Loyalists
+C0871,Diya Rao,diya.rao83@example.com,2025-12-09,United States,28,2,157.23000000000002,4,2,2,422,8,1,Loyalists
+C0872,Diya Thomas,diya.thomas19@example.com,2026-01-06,United Kingdom,14,7,1008.02,5,5,5,555,15,3,Champions
+C0873,Emily Jones,emily.jones68@example.com,2025-06-01,India,148,1,35.29,2,1,1,211,4,2,Lost Customers
+C0874,Ananya Joshi,ananya.joshi32@example.com,2025-01-21,France,35,7,824.2,4,5,4,454,13,3,Champions
+C0875,Karen Kumar,karen.kumar64@example.com,2026-01-14,India,9,13,4198.5,5,5,5,555,15,3,Champions
+C0876,Amit Sharma,amit.sharma27@example.com,2025-12-06,United States,15,5,385.07,5,4,4,544,13,1,Loyalists
+C0877,Jessica Roy,jessica.roy66@example.com,2025-11-15,India,182,1,22.07,1,1,1,111,3,2,Lost Customers
+C0878,Diya Bose,diya.bose53@example.com,2025-04-04,India,357,1,49.23,1,1,1,111,3,2,Lost Customers
+C0879,Lisa Mishra,lisa.mishra44@example.com,2025-07-17,United Kingdom,10,4,381.83,5,3,4,534,12,1,Loyalists
+C0880,Rajesh Mukherjee,rajesh.mukherjee93@example.com,2026-02-13,India,1,4,276.14,5,3,3,533,11,1,Loyalists
+C0881,Meera Mehta,meera.mehta30@example.com,2025-02-23,United States,196,1,25.9,1,1,1,111,3,2,Lost Customers
+C0882,Deepak Taylor,deepak.taylor82@example.com,2025-12-14,United States,98,4,334.84000000000003,2,3,4,234,9,0,At Risk Customers
+C0883,Kiran Das,kiran.das55@example.com,2025-11-10,India,16,5,335.96,5,4,4,544,13,1,Loyalists
+C0884,Meera Taylor,meera.taylor72@example.com,2025-02-27,Canada,115,6,921.49,2,4,4,244,10,0,At Risk Customers
+C0885,Richard Gupta,richard.gupta18@example.com,2025-05-14,United Kingdom,3,4,514.8199999999999,5,3,4,534,12,1,Loyalists
+C0886,Aarav Jackson,aarav.jackson83@example.com,2026-01-06,United States,7,7,919.0799999999999,5,5,4,554,14,3,Champions
+C0887,Jessica Jackson,jessica.jackson76@example.com,2025-12-19,United Kingdom,3,20,6837.900000000001,5,5,5,555,15,3,Champions
+C0888,Isha Banerjee,isha.banerjee94@example.com,2026-01-08,India,49,1,79.27,3,1,1,311,5,2,Lost Customers
+C0889,Robert Das,robert.das29@example.com,2025-10-13,Canada,97,2,120.84,2,2,2,222,6,2,Lost Customers
+C0890,Kiran Mehta,kiran.mehta11@example.com,2025-11-26,Australia,79,2,147.8,3,2,2,322,7,0,At Risk Customers
+C0891,Sunita Taylor,sunita.taylor73@example.com,2025-03-26,India,228,4,321.72,1,3,4,134,8,0,At Risk Customers
+C0892,Priya Kumar,priya.kumar40@example.com,2025-06-19,Singapore,80,2,114.79,3,2,2,322,7,2,Lost Customers
+C0893,Ananya Thomas,ananya.thomas38@example.com,2025-10-09,United States,9,10,1708.15,5,5,5,555,15,3,Champions
+C0894,Lisa Garcia,lisa.garcia20@example.com,2025-08-24,United States,23,8,2913.21,4,5,5,455,14,3,Champions
+C0895,Gita Chatterjee,gita.chatterjee21@example.com,2025-09-13,United States,5,20,6584.56,5,5,5,555,15,3,Champions
+C0896,Kabir Anderson,kabir.anderson93@example.com,2025-01-10,India,91,5,403.97,2,4,4,244,10,0,At Risk Customers
+C0897,Thomas Gupta,thomas.gupta81@example.com,2025-10-09,India,7,5,914.71,5,4,4,544,13,1,Loyalists
+C0898,Diya Young,diya.young89@example.com,2025-11-23,India,17,1,41.57,5,1,1,511,7,2,Lost Customers
+C0899,Sunita Harris,sunita.harris36@example.com,2025-12-02,United Kingdom,135,5,282.40999999999997,2,4,3,243,9,0,At Risk Customers
+C0900,Jessica Bose,jessica.bose16@example.com,2025-04-25,France,334,2,153.76,1,2,2,122,5,2,Lost Customers
+C0901,Jessica Harris,jessica.harris89@example.com,2025-11-04,United States,1,6,862.01,5,4,4,544,13,1,Loyalists
+C0902,Karen Chatterjee,karen.chatterjee24@example.com,2025-02-19,Germany,210,2,125.46000000000001,1,2,2,122,5,2,Lost Customers
+C0903,Vikram Sharma,vikram.sharma53@example.com,2025-07-01,Germany,124,5,380.32,2,4,4,244,10,0,At Risk Customers
+C0904,Sarah Harris,sarah.harris76@example.com,2025-07-11,United Kingdom,136,4,641.5899999999999,2,3,4,234,9,0,At Risk Customers
+C0905,Amit Smith,amit.smith73@example.com,2025-03-13,Germany,32,4,550.38,4,3,4,434,11,1,Loyalists
+C0906,Thomas Joshi,thomas.joshi42@example.com,2025-11-09,India,177,4,304.21999999999997,1,3,3,133,7,0,At Risk Customers
+C0907,Kabir Choudhury,kabir.choudhury37@example.com,2025-08-23,Germany,212,1,69.62,1,1,1,111,3,2,Lost Customers
+C0908,Siddharth Sen,siddharth.sen23@example.com,2026-01-23,United States,136,1,48.5,2,1,1,211,4,2,Lost Customers
+C0909,Deepak Rao,deepak.rao67@example.com,2025-08-23,United Kingdom,142,1,11.8,2,1,1,211,4,2,Lost Customers
+C0910,Sunita Nair,sunita.nair73@example.com,2025-01-03,United States,350,5,1007.3499999999999,1,4,5,145,10,0,At Risk Customers
+C0911,Ananya Harris,ananya.harris65@example.com,2025-10-27,United States,116,4,234.28,2,3,3,233,8,0,At Risk Customers
+C0912,Sunita Johnson,sunita.johnson98@example.com,2025-10-24,India,24,10,1567.07,4,5,5,455,14,3,Champions
+C0913,Meera Joshi,meera.joshi59@example.com,2025-12-03,United States,21,6,815.83,4,5,4,454,13,3,Champions
+C0914,John Thomas,john.thomas59@example.com,2025-08-03,Singapore,12,8,1154.31,5,5,5,555,15,3,Champions
+C0915,James Davis,james.davis60@example.com,2025-06-25,Singapore,298,1,23.05,1,1,1,111,3,2,Lost Customers
+C0916,Richard Nair,richard.nair27@example.com,2025-07-31,United States,41,5,365.74,4,4,4,444,12,0,At Risk Customers
+C0917,Sunita Martinez,sunita.martinez99@example.com,2025-10-08,France,21,3,177.51,4,3,2,432,9,1,Loyalists
+C0918,Suresh Brown,suresh.brown35@example.com,2025-04-18,United States,130,5,331.15,2,4,4,244,10,0,At Risk Customers
+C0919,Sarah Roy,sarah.roy96@example.com,2025-03-09,Singapore,308,1,73.48,1,1,1,111,3,2,Lost Customers
+C0920,Rohan Thomas,rohan.thomas79@example.com,2025-12-22,United States,4,1,66.88,5,1,1,511,7,1,Loyalists
+C0921,Kabir Roy,kabir.roy81@example.com,2025-09-03,United States,48,5,247.46,3,4,3,343,10,0,At Risk Customers
+C0922,Thomas White,thomas.white46@example.com,2025-08-05,Germany,53,3,164.81,3,3,2,332,8,0,At Risk Customers
+C0923,Vijay Joshi,vijay.joshi13@example.com,2025-07-15,India,149,4,350.44,2,3,4,234,9,0,At Risk Customers
+C0924,Ananya Williams,ananya.williams44@example.com,2026-01-20,Germany,51,1,51.34,3,1,1,311,5,2,Lost Customers
+C0925,Sarah Miller,sarah.miller28@example.com,2025-02-01,United Kingdom,207,4,286.57,1,4,3,143,8,0,At Risk Customers
+C0926,Sarah Brown,sarah.brown79@example.com,2025-01-17,India,75,4,279.15999999999997,3,4,3,343,10,0,At Risk Customers
+C0927,Richard Joshi,richard.joshi88@example.com,2025-12-12,United Kingdom,225,1,66.76,1,1,1,111,3,2,Lost Customers
+C0928,Vikram Harris,vikram.harris59@example.com,2025-05-02,United States,148,5,293.88,2,4,3,243,9,0,At Risk Customers
+C0929,Sarah Mehta,sarah.mehta58@example.com,2025-07-18,United States,51,3,221.39,3,3,3,333,9,0,At Risk Customers
+C0930,John Harris,john.harris16@example.com,2025-01-07,United Kingdom,206,4,298.04,1,4,3,143,8,0,At Risk Customers
+C0931,Siddharth King,siddharth.king66@example.com,2025-04-26,Canada,111,4,299.73,2,4,3,243,9,0,At Risk Customers
+C0932,Karen Thompson,karen.thompson79@example.com,2026-01-14,United States,13,9,2862.57,5,5,5,555,15,3,Champions
+C0933,Siddharth Rodriguez,siddharth.rodriguez67@example.com,2025-04-01,Singapore,28,5,753.96,4,4,4,444,12,1,Loyalists
+C0934,Arjun Johnson,arjun.johnson32@example.com,2026-01-12,United States,63,5,434.95,3,4,4,344,11,0,At Risk Customers
+C0935,William Gupta,william.gupta64@example.com,2025-05-23,United States,384,1,24.87,1,1,1,111,3,2,Lost Customers
+C0936,Meera Smith,meera.smith84@example.com,2025-05-11,India,157,1,51.37,2,1,1,211,4,2,Lost Customers
+C0937,Ashley Reddy,ashley.reddy15@example.com,2025-03-20,Canada,24,4,512.36,4,4,4,444,12,1,Loyalists
+C0938,Sanjay Mehta,sanjay.mehta90@example.com,2025-11-12,France,80,2,137.29,3,2,2,322,7,2,Lost Customers
+C0939,David Anderson,david.anderson83@example.com,2025-10-09,India,250,1,44.49,1,1,1,111,3,2,Lost Customers
+C0940,John Jackson,john.jackson38@example.com,2025-04-05,United States,22,11,3138.38,4,5,5,455,14,3,Champions
+C0941,Sunita Smith,sunita.smith63@example.com,2025-10-06,United States,111,3,237.11,2,3,3,233,8,0,At Risk Customers
+C0942,Diya Roy,diya.roy38@example.com,2025-04-20,United Kingdom,58,5,352.1,3,4,4,344,11,0,At Risk Customers
+C0943,Jessica Bose,jessica.bose47@example.com,2025-04-22,Australia,468,1,51.25,1,1,1,111,3,2,Lost Customers
+C0944,Kiran Jackson,kiran.jackson70@example.com,2025-10-15,Germany,10,10,1196.83,5,5,5,555,15,3,Champions
+C0945,Aarav Rao,aarav.rao95@example.com,2025-06-27,United States,53,4,261.35,3,4,3,343,10,0,At Risk Customers
+C0946,Kiran King,kiran.king41@example.com,2025-01-21,United Kingdom,517,1,33.09,1,1,1,111,3,2,Lost Customers
+C0947,John Das,john.das24@example.com,2025-07-17,India,160,4,349.84,2,4,4,244,10,0,At Risk Customers
+C0948,Sarah Verma,sarah.verma76@example.com,2026-01-30,India,27,10,1636.03,4,5,5,455,14,3,Champions
+C0949,Sunita Chatterjee,sunita.chatterjee72@example.com,2025-01-23,India,41,10,1366.58,4,5,5,455,14,3,Champions
+C0950,Siddharth Kumar,siddharth.kumar75@example.com,2025-02-12,Australia,1,7,1278.69,5,5,5,555,15,3,Champions
+C0951,Pranav White,pranav.white78@example.com,2025-01-04,United States,523,1,24.88,1,1,1,111,3,2,Lost Customers
+C0952,Tanvi Brown,tanvi.brown97@example.com,2025-08-06,France,53,5,249.37,3,4,3,343,10,0,At Risk Customers
+C0953,Tanvi White,tanvi.white99@example.com,2026-01-15,Germany,165,1,34.78,2,1,1,211,4,2,Lost Customers
+C0954,Arjun Reddy,arjun.reddy13@example.com,2025-08-24,United Kingdom,15,5,340.93,5,4,4,544,13,1,Loyalists
+C0955,Amit Singh,amit.singh19@example.com,2025-01-28,India,26,3,261.24,4,3,3,433,10,1,Loyalists
+C0956,Emily Harris,emily.harris19@example.com,2025-10-22,Germany,46,12,3885.89,3,5,5,355,13,3,Champions
+C0957,Emily Mukherjee,emily.mukherjee59@example.com,2025-08-19,United States,64,5,380.8,3,4,4,344,11,0,At Risk Customers
+C0958,Sandra Kumar,sandra.kumar12@example.com,2025-07-19,United Kingdom,7,8,1123.78,5,5,5,555,15,3,Champions
+C0959,Anil Sharma,anil.sharma92@example.com,2026-01-04,United States,19,4,246.2,5,4,3,543,12,1,Loyalists
+C0960,Deepak Gupta,deepak.gupta99@example.com,2025-02-07,India,231,1,44.59,1,1,1,111,3,2,Lost Customers
+C0961,Sunita Joshi,sunita.joshi47@example.com,2026-02-07,United Kingdom,34,4,241.14,4,4,3,443,11,1,Loyalists
+C0962,Sanjay Singh,sanjay.singh46@example.com,2026-01-27,Canada,30,2,127.81,4,2,2,422,8,1,Loyalists
+C0963,William Choudhury,william.choudhury94@example.com,2025-01-16,United States,22,2,123.8,4,2,2,422,8,1,Loyalists
+C0964,Anil Jones,anil.jones27@example.com,2026-01-18,India,8,16,5192.99,5,5,5,555,15,3,Champions
+C0965,Anil Rodriguez,anil.rodriguez91@example.com,2025-03-15,India,34,2,128.13,4,2,2,422,8,1,Loyalists
+C0966,Karen Sharma,karen.sharma80@example.com,2025-10-12,India,259,1,78.03,1,1,1,111,3,2,Lost Customers
+C0967,Amit Sharma,amit.sharma83@example.com,2025-11-02,India,265,1,55.6,1,1,1,111,3,2,Lost Customers
+C0968,Suresh Singh,suresh.singh49@example.com,2025-04-18,United Kingdom,158,1,65.53,2,1,1,211,4,2,Lost Customers
+C0969,Robert Brown,robert.brown62@example.com,2025-11-27,France,11,16,5490.09,5,5,5,555,15,3,Champions
+C0970,Neha Smith,neha.smith33@example.com,2025-04-24,United States,185,4,314.6,1,4,3,143,8,0,At Risk Customers
+C0971,Emily Williams,emily.williams24@example.com,2025-04-03,United Kingdom,27,5,316.97,4,4,3,443,11,1,Loyalists
+C0972,Gita Mehta,gita.mehta80@example.com,2025-08-25,United States,78,3,141.32999999999998,3,3,2,332,8,0,At Risk Customers
+C0973,Arjun Rodriguez,arjun.rodriguez95@example.com,2025-02-04,India,71,9,1511.27,3,5,5,355,13,3,Champions
+C0974,Siddharth Thompson,siddharth.thompson72@example.com,2025-06-19,India,12,5,432.7,5,4,4,544,13,1,Loyalists
+C0975,James Joshi,james.joshi46@example.com,2025-11-14,India,30,11,3578.02,4,5,5,455,14,3,Champions
+C0976,Siddharth Kumar,siddharth.kumar72@example.com,2025-08-19,India,39,3,181.09,4,3,2,432,9,1,Loyalists
+C0977,David Thompson,david.thompson29@example.com,2025-10-17,United States,103,3,220.39,2,3,3,233,8,0,At Risk Customers
+C0978,John Banerjee,john.banerjee31@example.com,2025-01-03,India,46,16,4922.25,3,5,5,355,13,3,Champions
+C0979,Vikram Banerjee,vikram.banerjee45@example.com,2025-07-04,India,76,4,184.84,3,4,2,342,9,0,At Risk Customers
+C0980,Jessica Taylor,jessica.taylor69@example.com,2025-08-17,India,15,4,293.36,5,4,3,543,12,1,Loyalists
+C0981,David Anderson,david.anderson80@example.com,2025-02-25,India,369,1,30.18,1,1,1,111,3,2,Lost Customers
+C0982,Sanjay Singh,sanjay.singh45@example.com,2025-03-13,Canada,203,3,109.82,1,3,2,132,6,0,At Risk Customers
+C0983,Siddharth Miller,siddharth.miller90@example.com,2025-02-09,United Kingdom,320,5,706.33,1,4,4,144,9,0,At Risk Customers
+C0984,Aditya Thomas,aditya.thomas90@example.com,2025-01-16,Germany,367,2,138.18,1,2,2,122,5,2,Lost Customers
+C0985,Deepak Choudhury,deepak.choudhury85@example.com,2025-04-19,Canada,45,18,5775.09,3,5,5,355,13,3,Champions
+C0986,Suresh Miller,suresh.miller79@example.com,2025-10-04,United States,23,10,1712.0900000000001,4,5,5,455,14,3,Champions
+C0987,Neha Bose,neha.bose60@example.com,2025-04-25,Canada,155,4,234.56,2,4,3,243,9,0,At Risk Customers
+C0988,Deepak Rodriguez,deepak.rodriguez27@example.com,2025-08-26,United States,147,1,16.73,2,1,1,211,4,2,Lost Customers
+C0989,Diya Choudhury,diya.choudhury56@example.com,2025-09-15,India,288,1,37.56,1,1,1,111,3,2,Lost Customers
+C0990,James King,james.king97@example.com,2025-03-26,Germany,40,9,1567.51,4,5,5,455,14,3,Champions
+C0991,Meera Chatterjee,meera.chatterjee30@example.com,2025-04-02,United States,161,10,1255.21,2,5,5,255,12,3,Champions
+C0992,Gita Reddy,gita.reddy71@example.com,2025-07-03,India,208,5,308.74,1,4,3,143,8,0,At Risk Customers
+C0993,Priya Jones,priya.jones18@example.com,2025-05-16,India,3,18,5605.69,5,5,5,555,15,3,Champions
+C0994,Amit Brown,amit.brown76@example.com,2026-02-10,India,11,3,256.15999999999997,5,3,3,533,11,1,Loyalists
+C0995,Rajesh Mishra,rajesh.mishra15@example.com,2025-01-21,Singapore,106,2,134.31,2,2,2,222,6,2,Lost Customers
+C0996,John Joshi,john.joshi76@example.com,2025-11-21,Germany,234,1,64.08,1,1,1,111,3,2,Lost Customers
+C0997,Emily Thompson,emily.thompson79@example.com,2025-10-19,India,50,7,1144.62,3,5,5,355,13,3,Champions
+C0998,William Bose,william.bose85@example.com,2025-12-01,Canada,41,4,602.3199999999999,4,4,4,444,12,0,At Risk Customers
+C0999,Arjun Jackson,arjun.jackson42@example.com,2025-07-12,Singapore,403,1,19.73,1,1,1,111,3,2,Lost Customers
+C1000,Vikram Jackson,vikram.jackson61@example.com,2025-06-30,Germany,54,1,42.66,3,1,1,311,5,2,Lost Customers
